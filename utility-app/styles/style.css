@@ -11,6 +11,9 @@
 body {
   background-color: rgb(55, 55, 61);
 }
+body main a {
+  text-decoration: none;
+}
 body main section-1 {
   margin: 4% 17% 5% 17%;
   background-color: white;
