@@ -1,0 +1,180 @@
+$bodyBgColor:  rgb(55, 55, 61);
+$startBtnHoverBgColor:   rgb(43, 43, 46);
+$pureWhiteColor: white;
+$boxShadowColor: 1px 1px 10px 4px rgb(167, 188, 244);
+$pureRed: red;
+$pureBlack: black;
+$inputBorder: rgb(175, 175, 179);
+$blueText: #4e73df;
+
+@font-face {
+    font-family: nunitoSemiBold;
+    src: url(./../fonts/NunitoSans-SemiBold.ttf);
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+
+body {
+    background-color: $bodyBgColor;
+
+    main {
+        // display: flex;
+        a {
+            text-decoration: none;
+        }
+
+        section-1 {
+            margin: 4% 17% 5% 17%;
+            background-color: $pureWhiteColor;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            // transition: all 0.3s ease-in-out;
+
+            &:hover {
+                box-shadow: $boxShadowColor;
+            }
+            
+
+            .logo-div {
+
+                .dog {
+                    border-top-left-radius: 10px;
+                    border-bottom-left-radius: 10px;
+                    height: 100%;
+                    width: 100%;
+
+                }
+
+            }
+
+            .login-div {
+                // border: 1px solid black;
+                // margin-right: 10%;
+                // margin-top: 5%;
+                // margin-bottom: 5%;
+                width: 50%;
+                text-align: center;
+           
+                
+
+                // .utility-name {
+                //     // border: 1px solid black;
+                //     font-size: 350%;
+                //     font-family: 'Xanh Mono', monospace;
+                //     width: 100%;
+                //     // margin: 20% 16%;
+                //     flex-wrap: wrap;
+                //     // font-weight: 10800;
+
+                    .welcome {
+                        // border: 1px solid black;
+                        font-size: 160%;
+                        font-family: nunito;
+                        margin-top: 10%;
+                        color: $bodyBgColor;
+                        // width: 100%;
+                        // margin-left: 25%;
+                        
+                    // }
+
+                }
+
+                form {
+
+                    .email {
+                        width: 80%;
+                        height: 10%;
+                        border: 1px solid $inputBorder;
+                        border-radius: 50px;
+                        padding: 0 3%;
+                        // margin-left: 3%;
+                        caret-color: $pureRed;
+                        font-family: nunito;
+                        // text-align: center;
+                        
+                    }
+    
+                    .password {
+                        width: 80%;
+                        height: 10%;
+                        border: 1px solid $inputBorder;
+                        border-radius: 50px;
+                        // margin-left: 4%;
+                        font-family: nunito;
+                        padding: 0 3%;
+                        caret-color: $pureRed;
+                    }
+    
+                }
+
+                .checkbox-div  {
+                    display: flex;
+                    margin-left: 10%;
+                    // border: 1px solid black;
+
+                    .remember {
+                        color: $bodyBgColor;
+                        font-family: nunito;
+                        font-size: 80%;
+                    }
+
+                }
+
+                .login-btn {
+                    width: 80%;
+                    height: 10%;
+                    background-color: $bodyBgColor;
+                    color: $pureWhiteColor;
+                    margin-top: 5%;
+                    border-radius: 50px;
+                    transition: all 0.2s ease-in-out;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: $startBtnHoverBgColor;
+                    }
+
+                }
+
+                .hr {
+                    width: 80%;
+                    margin-left: 10%;
+                    border-top: 1px solid rgb(219, 213, 213);
+                    margin-bottom: 4%;
+                    
+                }
+
+                .forgot {
+                    color: $blueText;
+                    font-family: nunitoSemiBold;
+                    font-size: 80%;
+
+                }
+
+                .yet {
+                    font-family: nunitoSemiBold;
+                    font-size: 100%;
+                    color: $bodyBgColor;
+
+                    .spn-create {
+                        color: $blueText;
+                        font-family: nunitoSemiBold;
+                        font-size: 80%;
+
+                    }
+                }
+
+
+
+            }
+        }
+    }
+}
