@@ -5,6 +5,12 @@ $boxShadowColor: 1px 1px 10px 4px rgb(167, 188, 244);
 $pureRed: red;
 $pureBlack: black;
 $inputBorder: rgb(175, 175, 179);
+$blueText: #4e73df;
+
+@font-face {
+    font-family: nunitoSemiBold;
+    src: url(./../fonts/NunitoSans-SemiBold.ttf);
+  }
 
 
 *{
@@ -19,6 +25,7 @@ body {
     background-color: $bodyBgColor;
 
     main {
+        // display: flex;
 
         section-1 {
             margin: 4% 17% 5% 17%;
@@ -65,9 +72,11 @@ body {
                 //     // font-weight: 10800;
 
                     .welcome {
-                        // border: 1px solid black;
+                        border: 1px solid black;
                         font-size: 160%;
                         font-family: nunito;
+                        margin-top: 10%;
+                        color: $bodyBgColor;
                         // width: 100%;
                         // margin-left: 25%;
                         
@@ -109,7 +118,7 @@ body {
                     border: 1px solid black;
 
                     .remember {
-                        color: black;
+                        color: $bodyBgColor;
                         font-family: nunito;
                         font-size: 80%;
                     }
@@ -121,7 +130,7 @@ body {
                     height: 10%;
                     background-color: $bodyBgColor;
                     color: $pureWhiteColor;
-                    margin-top: 8%;
+                    margin-top: 5%;
                     border-radius: 50px;
                     transition: all 0.2s ease-in-out;
                     cursor: pointer;
@@ -132,15 +141,31 @@ body {
 
                 }
 
+                .hr {
+                    width: 80%;
+                    margin-left: 10%;
+                    border-top: 1px solid rgb(219, 213, 213);
+                    margin-bottom: 4%;
+                    
+                }
+
                 .forgot {
-                    color: #4e73df;
+                    color: $blueText;
+                    font-family: nunitoSemiBold;
+                    font-size: 80%;
 
                 }
 
                 .yet {
+                    font-family: nunitoSemiBold;
+                    font-size: 100%;
+                    color: $bodyBgColor;
 
                     .spn-create {
-                        color: #4e73df;
+                        color: $blueText;
+                        font-family: nunitoSemiBold;
+                        font-size: 80%;
+
                     }
                 }
 
