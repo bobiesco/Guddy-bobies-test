@@ -42,7 +42,16 @@ body main section-1 .login-div .welcome {
   margin-bottom: 2%;
   color: rgb(55, 55, 61);
 }
-body main section-1 .login-div form .email {
+body main section-1 .login-div form .first {
+  width: 70%;
+  height: 8%;
+  border: 1px solid rgb(175, 175, 179);
+  border-radius: 5px;
+  padding: 0 3%;
+  caret-color: red;
+  font-family: nunito;
+}
+body main section-1 .login-div form .last {
   width: 70%;
   height: 8%;
   border: 1px solid rgb(175, 175, 179);
@@ -60,7 +69,7 @@ body main section-1 .login-div form .email {
   caret-color: red;
   font-family: nunito;
 }
-body main section-1 .login-div form .email {
+body main section-1 .login-div form .phone {
   width: 70%;
   height: 8%;
   border: 1px solid rgb(175, 175, 179);
@@ -69,7 +78,7 @@ body main section-1 .login-div form .email {
   caret-color: red;
   font-family: nunito;
 }
-body main section-1 .login-div form .email {
+body main section-1 .login-div form .input-div .password {
   width: 70%;
   height: 8%;
   border: 1px solid rgb(175, 175, 179);
@@ -78,16 +87,7 @@ body main section-1 .login-div form .email {
   caret-color: red;
   font-family: nunito;
 }
-body main section-1 .login-div form .input-div .email {
-  width: 70%;
-  height: 8%;
-  border: 1px solid rgb(175, 175, 179);
-  border-radius: 5px;
-  padding: 0 3%;
-  caret-color: red;
-  font-family: nunito;
-}
-body main section-1 .login-div form .input-div .email {
+body main section-1 .login-div form .input-div .repeat-password {
   width: 70%;
   height: 8%;
   border: 1px solid rgb(175, 175, 179);

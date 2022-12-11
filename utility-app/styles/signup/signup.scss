@@ -95,7 +95,19 @@ body {
 
                 form {
 
-                    .email {
+                    .first {
+                        width: 70%;
+                        height: 8%;
+                        border: 1px solid $inputBorder;
+                        border-radius: 5px;
+                        padding: 0 3%;
+                        // margin-left: 3%;
+                        caret-color: $pureRed;
+                        font-family: nunito;
+                        // text-align: center; 
+                    }
+
+                    .last {
                         width: 70%;
                         height: 8%;
                         border: 1px solid $inputBorder;
@@ -119,19 +131,7 @@ body {
                         // text-align: center; 
                     }
 
-                    .email {
-                        width: 70%;
-                        height: 8%;
-                        border: 1px solid $inputBorder;
-                        border-radius: 5px;
-                        padding: 0 3%;
-                        // margin-left: 3%;
-                        caret-color: $pureRed;
-                        font-family: nunito;
-                        // text-align: center; 
-                    }
-
-                    .email {
+                    .phone {
                         width: 70%;
                         height: 8%;
                         border: 1px solid $inputBorder;
@@ -145,7 +145,7 @@ body {
 
                     .input-div {
 
-                        .email {
+                        .password {
                             width: 70%;
                             height: 8%;
                             border: 1px solid $inputBorder;
@@ -156,8 +156,8 @@ body {
                             font-family: nunito;
                             // text-align: center; 
                         }
-                        
-                        .email {
+
+                        .repeat-password {
                             width: 70%;
                             height: 8%;
                             border: 1px solid $inputBorder;
