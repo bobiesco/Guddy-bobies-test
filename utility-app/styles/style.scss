@@ -1,0 +1,144 @@
+$bodyBgColor:  rgb(55, 55, 61);
+$startBtnHoverBgColor:   rgb(43, 43, 46);
+$pureWhiteColor: white;
+$boxShadowColor: 1px 1px 10px 4px rgb(167, 188, 244);
+$pureRed: red;
+$pureBlack: black;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+
+body {
+    background-color: $bodyBgColor;
+
+    main {
+
+        section-1 {
+            margin: 4% 17% 5% 17%;
+            background-color: $pureWhiteColor;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            // transition: all 0.3s ease-in-out;
+
+            &:hover {
+                box-shadow: $boxShadowColor;
+            }
+            
+
+            .logo-div {
+                
+               
+
+                .dog {
+                    border-top-left-radius: 10px;
+                    border-bottom-left-radius: 10px;
+                    height: 100%;
+                    width: 100%;
+
+                }
+
+            }
+
+            .start-div {
+                // border: 1px solid black;
+                margin-right: 10%;
+                margin-top: 5%;
+                margin-bottom: 5%;
+                
+
+                // .shoprite-name {
+                //     // border: 1px solid black;
+                //     font-size: 350%;
+                //     font-family: 'Xanh Mono', monospace;
+                //     width: 100%;
+                //     // margin: 20% 16%;
+                //     flex-wrap: wrap;
+                //     // font-weight: 10800;
+
+                    .shoprite-logo {
+                        justify-items: center;
+                        cursor: pointer;
+
+                    }
+
+                    .discount {
+                        // border: 1px solid black;
+                        font-size: 100%;
+                        width: 100%;
+                        margin-left: 25%;
+                    // }
+
+                }
+
+                form {
+
+                    .first {
+                        width: 60%;
+                        height: 5.5%;
+                        border: 1px solid $pureBlack;
+                        border-radius: 5px;
+                        padding: 0 3%;
+                        margin-left: 3%;
+                        caret-color: $pureRed;
+                        
+                    }
+    
+                    .last {
+                        width: 60%;
+                        height: 5.5%;
+                        border: 1px solid $pureBlack;
+                        border-radius: 5px;
+                        margin-left: 4%;
+                        padding: 0 3%;
+                        caret-color: $pureRed;
+                    }
+    
+                    .age {
+                        width: 60%;
+                        height: 5.5%;
+                        border: 1px solid $pureBlack;
+                        border-radius: 5px;
+                        margin-left: 22.5%;
+                        padding: 0 3%;
+                        caret-color: $pureRed;
+                    }
+
+                }
+
+                .discount-btn {
+                    width: 100%;
+                    height: 12%;
+                    background-color: $bodyBgColor;
+                    color: $pureWhiteColor;
+                    margin-top: 8%;
+                    border-radius: 50px;
+                    transition: all 0.2s ease-in-out;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: $startBtnHoverBgColor;
+                    }
+
+                }
+
+                .back-home {
+                    height: 4%;
+                    width: 2%;
+                    position: absolute;
+                    left: 51%;
+                    bottom: 83%;
+                    transform: rotate(90deg);
+                    cursor: pointer;
+                }
+
+            }
+        }
+    }
+}
