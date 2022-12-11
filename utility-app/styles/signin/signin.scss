@@ -6,6 +6,7 @@ $pureRed: red;
 $pureBlack: black;
 $inputBorder: rgb(175, 175, 179);
 $blueText: #4e73df;
+$inputOutline: 3px solid rgb(210, 206, 206);
 
 @font-face {
     font-family: nunitoSemiBold;
@@ -99,6 +100,10 @@ body {
                         caret-color: $pureRed;
                         font-family: nunito;
                         // text-align: center;
+
+                        &:focus {
+                            outline: $inputOutline;
+                        }
                         
                     }
     
@@ -111,6 +116,10 @@ body {
                         font-family: nunito;
                         padding: 0 3%;
                         caret-color: $pureRed;
+
+                        &:focus {
+                            outline: $inputOutline;
+                        }
                     }
     
                 }

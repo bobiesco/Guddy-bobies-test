@@ -49,6 +49,9 @@ body main section-1 .login-div form .email {
   caret-color: red;
   font-family: nunito;
 }
+body main section-1 .login-div form .email:focus {
+  outline: 3px solid rgb(210, 206, 206);
+}
 body main section-1 .login-div form .password {
   width: 80%;
   height: 10%;
@@ -57,6 +60,9 @@ body main section-1 .login-div form .password {
   font-family: nunito;
   padding: 0 3%;
   caret-color: red;
+}
+body main section-1 .login-div form .password:focus {
+  outline: 3px solid rgb(210, 206, 206);
 }
 body main section-1 .login-div .checkbox-div {
   display: flex;
