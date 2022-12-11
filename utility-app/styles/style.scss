@@ -4,6 +4,7 @@ $pureWhiteColor: white;
 $boxShadowColor: 1px 1px 10px 4px rgb(167, 188, 244);
 $pureRed: red;
 $pureBlack: black;
+$inputBorder: rgb(175, 175, 179);
 
 
 *{
@@ -79,25 +80,40 @@ body {
                     .email {
                         width: 80%;
                         height: 10%;
-                        border: 1px solid $pureBlack;
+                        border: 1px solid $inputBorder;
                         border-radius: 50px;
                         padding: 0 3%;
-                        margin-left: 3%;
+                        // margin-left: 3%;
                         caret-color: $pureRed;
-                        text-align: center;
+                        font-family: nunito;
+                        // text-align: center;
                         
                     }
     
                     .password {
                         width: 80%;
                         height: 10%;
-                        border: 1px solid $pureBlack;
+                        border: 1px solid $inputBorder;
                         border-radius: 50px;
-                        margin-left: 4%;
+                        // margin-left: 4%;
+                        font-family: nunito;
                         padding: 0 3%;
                         caret-color: $pureRed;
                     }
     
+                }
+
+                .checkbox-div  {
+                    display: flex;
+                    margin-left: 10%;
+                    border: 1px solid black;
+
+                    .remember {
+                        color: black;
+                        font-family: nunito;
+                        font-size: 80%;
+                    }
+
                 }
 
                 .login-btn {

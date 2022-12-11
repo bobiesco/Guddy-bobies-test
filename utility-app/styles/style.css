@@ -35,21 +35,30 @@ body main section-1 .login-div .welcome {
 body main section-1 .login-div form .email {
   width: 80%;
   height: 10%;
-  border: 1px solid black;
+  border: 1px solid rgb(175, 175, 179);
   border-radius: 50px;
   padding: 0 3%;
-  margin-left: 3%;
   caret-color: red;
-  text-align: center;
+  font-family: nunito;
 }
 body main section-1 .login-div form .password {
   width: 80%;
   height: 10%;
-  border: 1px solid black;
+  border: 1px solid rgb(175, 175, 179);
   border-radius: 50px;
-  margin-left: 4%;
+  font-family: nunito;
   padding: 0 3%;
   caret-color: red;
+}
+body main section-1 .login-div .checkbox-div {
+  display: flex;
+  margin-left: 10%;
+  border: 1px solid black;
+}
+body main section-1 .login-div .checkbox-div .remember {
+  color: black;
+  font-family: nunito;
+  font-size: 80%;
 }
 body main section-1 .login-div .login-btn {
   width: 80%;
