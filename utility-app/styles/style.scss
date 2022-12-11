@@ -77,21 +77,22 @@ body {
                 form {
 
                     .email {
-                        width: 60%;
-                        height: 5.5%;
+                        width: 80%;
+                        height: 10%;
                         border: 1px solid $pureBlack;
-                        border-radius: 5px;
+                        border-radius: 50px;
                         padding: 0 3%;
                         margin-left: 3%;
                         caret-color: $pureRed;
+                        text-align: center;
                         
                     }
     
                     .password {
-                        width: 60%;
-                        height: 5.5%;
+                        width: 80%;
+                        height: 10%;
                         border: 1px solid $pureBlack;
-                        border-radius: 5px;
+                        border-radius: 50px;
                         margin-left: 4%;
                         padding: 0 3%;
                         caret-color: $pureRed;
@@ -101,7 +102,7 @@ body {
 
                 .login-btn {
                     width: 80%;
-                    height: 12%;
+                    height: 10%;
                     background-color: $bodyBgColor;
                     color: $pureWhiteColor;
                     margin-top: 8%;
