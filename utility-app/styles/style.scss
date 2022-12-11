@@ -33,8 +33,6 @@ body {
             
 
             .logo-div {
-                
-               
 
                 .dog {
                     border-top-left-radius: 10px;
@@ -46,14 +44,17 @@ body {
 
             }
 
-            .start-div {
-                // border: 1px solid black;
-                margin-right: 10%;
-                margin-top: 5%;
-                margin-bottom: 5%;
+            .login-div {
+                border: 1px solid black;
+                // margin-right: 10%;
+                // margin-top: 5%;
+                // margin-bottom: 5%;
+                width: 50%;
+                text-align: center;
+           
                 
 
-                // .shoprite-name {
+                // .utility-name {
                 //     // border: 1px solid black;
                 //     font-size: 350%;
                 //     font-family: 'Xanh Mono', monospace;
@@ -62,24 +63,20 @@ body {
                 //     flex-wrap: wrap;
                 //     // font-weight: 10800;
 
-                    .shoprite-logo {
-                        justify-items: center;
-                        cursor: pointer;
-
-                    }
-
-                    .discount {
+                    .welcome {
                         // border: 1px solid black;
-                        font-size: 100%;
-                        width: 100%;
-                        margin-left: 25%;
+                        font-size: 160%;
+                        font-family: nunito;
+                        // width: 100%;
+                        // margin-left: 25%;
+                        
                     // }
 
                 }
 
                 form {
 
-                    .first {
+                    .email {
                         width: 60%;
                         height: 5.5%;
                         border: 1px solid $pureBlack;
@@ -90,7 +87,7 @@ body {
                         
                     }
     
-                    .last {
+                    .password {
                         width: 60%;
                         height: 5.5%;
                         border: 1px solid $pureBlack;
@@ -100,20 +97,10 @@ body {
                         caret-color: $pureRed;
                     }
     
-                    .age {
-                        width: 60%;
-                        height: 5.5%;
-                        border: 1px solid $pureBlack;
-                        border-radius: 5px;
-                        margin-left: 22.5%;
-                        padding: 0 3%;
-                        caret-color: $pureRed;
-                    }
-
                 }
 
-                .discount-btn {
-                    width: 100%;
+                .login-btn {
+                    width: 80%;
                     height: 12%;
                     background-color: $bodyBgColor;
                     color: $pureWhiteColor;
@@ -128,15 +115,19 @@ body {
 
                 }
 
-                .back-home {
-                    height: 4%;
-                    width: 2%;
-                    position: absolute;
-                    left: 51%;
-                    bottom: 83%;
-                    transform: rotate(90deg);
-                    cursor: pointer;
+                .forgot {
+                    color: #4e73df;
+
                 }
+
+                .yet {
+
+                    .spn-create {
+                        color: #4e73df;
+                    }
+                }
+
+
 
             }
         }

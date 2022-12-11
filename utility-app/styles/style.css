@@ -23,21 +23,16 @@ body main section-1 .logo-div .dog {
   height: 100%;
   width: 100%;
 }
-body main section-1 .start-div {
-  margin-right: 10%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+body main section-1 .login-div {
+  border: 1px solid black;
+  width: 50%;
+  text-align: center;
 }
-body main section-1 .start-div .shoprite-logo {
-  justify-items: center;
-  cursor: pointer;
+body main section-1 .login-div .welcome {
+  font-size: 160%;
+  font-family: nunito;
 }
-body main section-1 .start-div .discount {
-  font-size: 100%;
-  width: 100%;
-  margin-left: 25%;
-}
-body main section-1 .start-div form .first {
+body main section-1 .login-div form .email {
   width: 60%;
   height: 5.5%;
   border: 1px solid black;
@@ -46,7 +41,7 @@ body main section-1 .start-div form .first {
   margin-left: 3%;
   caret-color: red;
 }
-body main section-1 .start-div form .last {
+body main section-1 .login-div form .password {
   width: 60%;
   height: 5.5%;
   border: 1px solid black;
@@ -55,17 +50,8 @@ body main section-1 .start-div form .last {
   padding: 0 3%;
   caret-color: red;
 }
-body main section-1 .start-div form .age {
-  width: 60%;
-  height: 5.5%;
-  border: 1px solid black;
-  border-radius: 5px;
-  margin-left: 22.5%;
-  padding: 0 3%;
-  caret-color: red;
-}
-body main section-1 .start-div .discount-btn {
-  width: 100%;
+body main section-1 .login-div .login-btn {
+  width: 80%;
   height: 12%;
   background-color: rgb(55, 55, 61);
   color: white;
@@ -74,15 +60,12 @@ body main section-1 .start-div .discount-btn {
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
-body main section-1 .start-div .discount-btn:hover {
+body main section-1 .login-div .login-btn:hover {
   background-color: rgb(43, 43, 46);
 }
-body main section-1 .start-div .back-home {
-  height: 4%;
-  width: 2%;
-  position: absolute;
-  left: 51%;
-  bottom: 83%;
-  transform: rotate(90deg);
-  cursor: pointer;
+body main section-1 .login-div .forgot {
+  color: #4e73df;
+}
+body main section-1 .login-div .yet .spn-create {
+  color: #4e73df;
 }/*# sourceMappingURL=style.css.map */
