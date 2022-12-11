@@ -1,6 +1,6 @@
 @font-face {
   font-family: nunitoSemiBold;
-  src: url(./../fonts/NunitoSans-SemiBold.ttf);
+  src: url(./../../fonts/NunitoSans-SemiBold.ttf);
 }
 * {
   margin: 0;

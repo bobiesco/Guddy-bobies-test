@@ -20,7 +20,8 @@ body main section-1 {
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
-  height: 65%;
+  height: 80%;
+  border: 1px solid black;
 }
 body main section-1:hover {
   box-shadow: 1px 1px 10px 4px rgb(167, 188, 244);
@@ -30,8 +31,10 @@ body main section-1 .logo-div .dog {
   border-bottom-left-radius: 10px;
   height: 100%;
   width: 100%;
+  border: 1px solid black;
 }
 body main section-1 .login-div {
+  border: 1px solid black;
   width: 80%;
   text-align: center;
 }
@@ -43,68 +46,83 @@ body main section-1 .login-div .welcome {
   color: rgb(55, 55, 61);
 }
 body main section-1 .login-div form .first {
-  width: 70%;
+  width: 80%;
   height: 8%;
   border: 1px solid rgb(175, 175, 179);
   border-radius: 5px;
   padding: 0 3%;
   caret-color: red;
   font-family: nunito;
+  margin-bottom: 2%;
 }
 body main section-1 .login-div form .first:focus {
   outline: 3px solid rgb(210, 206, 206);
 }
 body main section-1 .login-div form .last {
-  width: 70%;
+  width: 80%;
   height: 8%;
   border: 1px solid rgb(175, 175, 179);
   border-radius: 5px;
   padding: 0 3%;
   caret-color: red;
   font-family: nunito;
+  margin-bottom: 2%;
 }
 body main section-1 .login-div form .last:focus {
   outline: 3px solid rgb(210, 206, 206);
 }
 body main section-1 .login-div form .email {
-  width: 70%;
+  width: 80%;
   height: 8%;
   border: 1px solid rgb(175, 175, 179);
   border-radius: 5px;
   padding: 0 3%;
   caret-color: red;
   font-family: nunito;
+  margin-bottom: 2%;
 }
 body main section-1 .login-div form .email:focus {
   outline: 3px solid rgb(210, 206, 206);
 }
 body main section-1 .login-div form .phone {
-  width: 70%;
+  width: 80%;
   height: 8%;
   border: 1px solid rgb(175, 175, 179);
   border-radius: 5px;
   padding: 0 3%;
   caret-color: red;
   font-family: nunito;
+  margin-bottom: 2%;
 }
 body main section-1 .login-div form .phone:focus {
   outline: 3px solid rgb(210, 206, 206);
 }
-body main section-1 .login-div form .input-div .password {
-  width: 70%;
+body main section-1 .login-div form .input-div {
+  border: 1px solid green;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-left: 10%;
   height: 8%;
+  width: 80%;
+  margin-bottom: 2%;
+}
+body main section-1 .login-div form .input-div .password {
+  width: 45%;
+  height: 100%;
   border: 1px solid rgb(175, 175, 179);
   border-radius: 5px;
   padding: 0 3%;
   caret-color: red;
   font-family: nunito;
+  margin-right: 10%;
 }
 body main section-1 .login-div form .input-div .password:focus {
   outline: 3px solid rgb(210, 206, 206);
 }
 body main section-1 .login-div form .input-div .repeat-password {
-  width: 70%;
-  height: 8%;
+  width: 45%;
+  height: 100%;
   border: 1px solid rgb(175, 175, 179);
   border-radius: 5px;
   padding: 0 3%;

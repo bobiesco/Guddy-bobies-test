@@ -39,8 +39,10 @@ body {
             border-radius: 10px;
             display: flex;
             justify-content: space-between;
-            height: 65%;
+            height: 80%;
+            // width: 70%;
             // transition: all 0.3s ease-in-out;
+            border: 1px solid black;
 
             &:hover {
                 box-shadow: $boxShadowColor;
@@ -54,14 +56,14 @@ body {
                     border-bottom-left-radius: 10px;
                     height: 100%;
                     width: 100%;
-                    // border: 1px solid black;
+                    border: 1px solid black;
 
                 }
 
             }
 
             .login-div {
-                // border: 1px solid black;
+                border: 1px solid black;
                 // margin-right: 10%;
                 // margin-top: 5%;
                 // margin-bottom: 5%;
@@ -97,7 +99,7 @@ body {
                 form {
 
                     .first {
-                        width: 70%;
+                        width: 80%;
                         height: 8%;
                         border: 1px solid $inputBorder;
                         border-radius: 5px;
@@ -105,6 +107,7 @@ body {
                         // margin-left: 3%;
                         caret-color: $pureRed;
                         font-family: nunito;
+                        margin-bottom: 2%;
                         // text-align: center; 
 
                         &:focus {
@@ -113,7 +116,7 @@ body {
                     }
 
                     .last {
-                        width: 70%;
+                        width: 80%;
                         height: 8%;
                         border: 1px solid $inputBorder;
                         border-radius: 5px;
@@ -121,6 +124,7 @@ body {
                         // margin-left: 3%;
                         caret-color: $pureRed;
                         font-family: nunito;
+                        margin-bottom: 2%;
                         // text-align: center; 
 
                         &:focus {
@@ -129,7 +133,7 @@ body {
                     }
 
                     .email {
-                        width: 70%;
+                        width: 80%;
                         height: 8%;
                         border: 1px solid $inputBorder;
                         border-radius: 5px;
@@ -137,6 +141,7 @@ body {
                         // margin-left: 3%;
                         caret-color: $pureRed;
                         font-family: nunito;
+                        margin-bottom: 2%;
                         // text-align: center; 
 
                         &:focus {
@@ -145,7 +150,7 @@ body {
                     }
 
                     .phone {
-                        width: 70%;
+                        width: 80%;
                         height: 8%;
                         border: 1px solid $inputBorder;
                         border-radius: 5px;
@@ -153,6 +158,7 @@ body {
                         // margin-left: 3%;
                         caret-color: $pureRed;
                         font-family: nunito;
+                        margin-bottom: 2%;
                         // text-align: center; 
 
                         &:focus {
@@ -161,16 +167,26 @@ body {
                     }
 
                     .input-div {
+                        border: 1px solid green;
+                        display: flex;
+                        justify-content: center;
+                        justify-content: space-between;
+                        margin-left: 10%;
+                        height: 8%;
+                        width: 80%;
+                        margin-bottom: 2%;
 
                         .password {
-                            width: 70%;
-                            height: 8%;
+                            width: 45%;
+                            height: 100%;
                             border: 1px solid $inputBorder;
                             border-radius: 5px;
                             padding: 0 3%;
                             // margin-left: 3%;
                             caret-color: $pureRed;
                             font-family: nunito;
+                            margin-right: 10%;
+                            // margin-bottom: 2%;
                             // text-align: center;
                             
                             &:focus {
@@ -179,14 +195,15 @@ body {
                         }
 
                         .repeat-password {
-                            width: 70%;
-                            height: 8%;
+                            width: 45%;
+                            height: 100%;
                             border: 1px solid $inputBorder;
                             border-radius: 5px;
                             padding: 0 3%;
                             // margin-left: 3%;
                             caret-color: $pureRed;
                             font-family: nunito;
+                            // margin-bottom: 2%;
                             // text-align: center; 
 
                             &:focus {
