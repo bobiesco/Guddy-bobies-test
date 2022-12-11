@@ -31,12 +31,10 @@ body main section-1 .logo-div .dog {
   width: 100%;
 }
 body main section-1 .login-div {
-  border: 1px solid black;
   width: 50%;
   text-align: center;
 }
 body main section-1 .login-div .welcome {
-  border: 1px solid black;
   font-size: 160%;
   font-family: nunito;
   margin-top: 10%;
@@ -63,7 +61,6 @@ body main section-1 .login-div form .password {
 body main section-1 .login-div .checkbox-div {
   display: flex;
   margin-left: 10%;
-  border: 1px solid black;
 }
 body main section-1 .login-div .checkbox-div .remember {
   color: rgb(55, 55, 61);
