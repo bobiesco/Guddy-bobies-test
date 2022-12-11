@@ -21,7 +21,6 @@ body main section-1 {
   display: flex;
   justify-content: space-between;
   height: 80%;
-  border: 1px solid black;
 }
 body main section-1:hover {
   box-shadow: 1px 1px 10px 4px rgb(167, 188, 244);
@@ -31,10 +30,8 @@ body main section-1 .logo-div .dog {
   border-bottom-left-radius: 10px;
   height: 100%;
   width: 100%;
-  border: 1px solid black;
 }
 body main section-1 .login-div {
-  border: 1px solid black;
   width: 80%;
   text-align: center;
 }
@@ -98,7 +95,6 @@ body main section-1 .login-div form .phone:focus {
   outline: 3px solid rgb(210, 206, 206);
 }
 body main section-1 .login-div form .input-div {
-  border: 1px solid green;
   display: flex;
   justify-content: center;
   justify-content: space-between;
@@ -136,23 +132,23 @@ body main section-1 .login-div .checkbox-div {
   display: flex;
   margin-left: 10%;
 }
-body main section-1 .login-div .reset-btn {
-  width: 70%;
-  height: 11%;
+body main section-1 .login-div .register-btn {
+  width: 80%;
+  height: 9%;
   background-color: rgb(55, 55, 61);
   color: white;
   border-radius: 50px;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
-body main section-1 .login-div .reset-btn:hover {
+body main section-1 .login-div .register-btn:hover {
   background-color: rgb(43, 43, 46);
 }
 body main section-1 .login-div .hr {
   width: 70%;
   margin-left: 15%;
   border-top: 1px solid rgb(219, 213, 213);
-  margin-bottom: 4%;
+  margin-bottom: 3%;
 }
 body main section-1 .login-div .forgot {
   color: #4e73df;
