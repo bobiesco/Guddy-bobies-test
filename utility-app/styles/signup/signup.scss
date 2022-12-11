@@ -7,6 +7,7 @@ $pureBlack: black;
 $inputBorder: rgb(175, 175, 179);
 $blueText: #4e73df;
 $lightText: rgb(135, 135, 138);
+$inputOutline: 3px solid rgb(210, 206, 206);
 
 @font-face {
     font-family: nunitoSemiBold;
@@ -105,6 +106,10 @@ body {
                         caret-color: $pureRed;
                         font-family: nunito;
                         // text-align: center; 
+
+                        &:focus {
+                            outline: $inputOutline;
+                        }
                     }
 
                     .last {
@@ -117,6 +122,10 @@ body {
                         caret-color: $pureRed;
                         font-family: nunito;
                         // text-align: center; 
+
+                        &:focus {
+                            outline: $inputOutline;
+                        }
                     }
 
                     .email {
@@ -129,6 +138,10 @@ body {
                         caret-color: $pureRed;
                         font-family: nunito;
                         // text-align: center; 
+
+                        &:focus {
+                            outline: $inputOutline;
+                        }
                     }
 
                     .phone {
@@ -141,6 +154,10 @@ body {
                         caret-color: $pureRed;
                         font-family: nunito;
                         // text-align: center; 
+
+                        &:focus {
+                            outline: $inputOutline;
+                        }
                     }
 
                     .input-div {
@@ -154,7 +171,11 @@ body {
                             // margin-left: 3%;
                             caret-color: $pureRed;
                             font-family: nunito;
-                            // text-align: center; 
+                            // text-align: center;
+                            
+                            &:focus {
+                                outline: $inputOutline;
+                            }
                         }
 
                         .repeat-password {
@@ -167,6 +188,10 @@ body {
                             caret-color: $pureRed;
                             font-family: nunito;
                             // text-align: center; 
+
+                            &:focus {
+                                outline: $inputOutline;
+                            }
                         }
                     }
     

@@ -51,6 +51,9 @@ body main section-1 .login-div form .first {
   caret-color: red;
   font-family: nunito;
 }
+body main section-1 .login-div form .first:focus {
+  outline: 3px solid rgb(210, 206, 206);
+}
 body main section-1 .login-div form .last {
   width: 70%;
   height: 8%;
@@ -59,6 +62,9 @@ body main section-1 .login-div form .last {
   padding: 0 3%;
   caret-color: red;
   font-family: nunito;
+}
+body main section-1 .login-div form .last:focus {
+  outline: 3px solid rgb(210, 206, 206);
 }
 body main section-1 .login-div form .email {
   width: 70%;
@@ -69,6 +75,9 @@ body main section-1 .login-div form .email {
   caret-color: red;
   font-family: nunito;
 }
+body main section-1 .login-div form .email:focus {
+  outline: 3px solid rgb(210, 206, 206);
+}
 body main section-1 .login-div form .phone {
   width: 70%;
   height: 8%;
@@ -77,6 +86,9 @@ body main section-1 .login-div form .phone {
   padding: 0 3%;
   caret-color: red;
   font-family: nunito;
+}
+body main section-1 .login-div form .phone:focus {
+  outline: 3px solid rgb(210, 206, 206);
 }
 body main section-1 .login-div form .input-div .password {
   width: 70%;
@@ -87,6 +99,9 @@ body main section-1 .login-div form .input-div .password {
   caret-color: red;
   font-family: nunito;
 }
+body main section-1 .login-div form .input-div .password:focus {
+  outline: 3px solid rgb(210, 206, 206);
+}
 body main section-1 .login-div form .input-div .repeat-password {
   width: 70%;
   height: 8%;
@@ -95,6 +110,9 @@ body main section-1 .login-div form .input-div .repeat-password {
   padding: 0 3%;
   caret-color: red;
   font-family: nunito;
+}
+body main section-1 .login-div form .input-div .repeat-password:focus {
+  outline: 3px solid rgb(210, 206, 206);
 }
 body main section-1 .login-div .checkbox-div {
   display: flex;
