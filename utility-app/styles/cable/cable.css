@@ -6,4 +6,32 @@
   margin: 0;
   padding: 0;
   border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+}
+body hr {
+  height: 20px;
+  width: 20px;
+  color: red;
+}
+body main .wrapper .section-1 .logo-div {
+  display: flex;
+  align-items: center;
+}
+body main .wrapper .section-1 .logo-div .logo {
+  height: 5%;
+  width: 3%;
+}
+body main .wrapper .section-1 .logo-div .h1 {
+  font-family: nunitoSemiBold;
+  font-size: 120%;
+}
+body main .wrapper .section-1 .side-bar-divider {
+  width: 80%;
+  height: 0%;
+  border: 1px solid rgb(237, 23, 23);
+  text-align: center;
 }/*# sourceMappingURL=cable.css.map */
