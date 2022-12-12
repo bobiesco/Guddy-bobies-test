@@ -17,9 +17,17 @@ body hr {
   width: 20px;
   color: red;
 }
+body main .wrapper {
+  background-color: #0d6efd;
+}
+body main .wrapper .section-1 {
+  text-align: center;
+}
 body main .wrapper .section-1 .logo-div {
   display: flex;
   align-items: center;
+  justify-content: center;
+  border: 1px solid black;
 }
 body main .wrapper .section-1 .logo-div .logo {
   height: 5%;
@@ -32,6 +40,46 @@ body main .wrapper .section-1 .logo-div .h1 {
 body main .wrapper .section-1 .side-bar-divider {
   width: 80%;
   height: 0%;
-  border: 1px solid rgb(237, 23, 23);
-  text-align: center;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+body main .wrapper .section-1 ul li {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+body main .wrapper .section-1 ul li .home {
+  height: 2%;
+  width: 2%;
+  margin-right: 1%;
+  color: white;
+}
+body main .wrapper .section-1 ul li .cart {
+  height: 1.5%;
+  width: 1.5%;
+  margin-right: 1%;
+}
+body main .wrapper .section-1 ul li .great {
+  height: 10px;
+  width: 10px;
+}
+body main .wrapper .section-1 ul li .gift {
+  height: 1.5%;
+  width: 1.5%;
+  margin-right: 1%;
+}
+body main .wrapper .section-1 ul li .dollar {
+  height: 1.5%;
+  width: 1.5%;
+  margin-right: 1%;
+}
+body main .wrapper .section-1 ul li .transaction {
+  height: 1.5%;
+  width: 1.5%;
+  margin-right: 1%;
+}
+body main .wrapper .section-1 ul li .clock {
+  height: 1.5%;
+  width: 1.5%;
+  margin-right: 1%;
 }/*# sourceMappingURL=cable.css.map */
