@@ -1,0 +1,9 @@
+@font-face {
+  font-family: nunitoSemiBold;
+  src: url(./../../fonts/NunitoSans-SemiBold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}/*# sourceMappingURL=cable.css.map */

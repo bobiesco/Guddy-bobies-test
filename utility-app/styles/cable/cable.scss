@@ -1,0 +1,22 @@
+$bodyBgColor:  rgb(55, 55, 61);
+$startBtnHoverBgColor:   rgb(43, 43, 46);
+$pureWhiteColor: white;
+$boxShadowColor: 1px 1px 10px 4px rgb(167, 188, 244);
+$pureRed: red;
+$pureBlack: black;
+$inputBorder: rgb(175, 175, 179);
+$blueText: #4e73df;
+$lightText: rgb(135, 135, 138);
+$inputOutline: 3px solid rgb(210, 206, 206);
+
+@font-face {
+    font-family: nunitoSemiBold;
+    src: url(./../../fonts/NunitoSans-SemiBold.ttf);
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
