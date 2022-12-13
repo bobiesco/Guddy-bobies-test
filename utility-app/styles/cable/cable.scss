@@ -48,7 +48,7 @@ body {
         display: flex;
         justify-content: flex-end;
         border: 1px solid green;
-        height: 100%;
+        height: auto;
       
         
         .wrapper{
@@ -234,7 +234,7 @@ body {
                 }
 
                 .purchase-collapse{
-                    // border: 1px solid rgb(240, 9, 9);
+                    border: 1px solid $pureWhiteColor;
                     border-radius: 8px;
                     background-color: $pureWhiteColor;
                     width: 90%;
@@ -288,7 +288,7 @@ body {
                             padding: 7px 82px 8px 10px;
                         }
                         .a-fun{
-                            padding: 7px 5px 8px 10px;
+                            padding: 7px 17px 8px 10px;
 
                             .new-fund-span {
                                 background-color: $newSpanBgColor;
@@ -318,9 +318,9 @@ body {
                 display: flex;
                 justify-content: flex-end;
                 align-items: center;
-                height: 11.8%;
+                height: 8.5%;
                 // border: 1px solid rgb(225, 11, 11);
-                box-shadow: 5px 2px 20px 4px rgb(225, 221, 221);
+                box-shadow: 10px 2px 20px 4px rgb(225, 221, 221);
 
 
                 .side-bar-divider{
