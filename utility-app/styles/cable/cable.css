@@ -149,6 +149,35 @@ body main .wrapper .section-1 ul .finances-h2 {
   margin-left: 5%;
   font-size: 65%;
 }
+body main .wrapper .purchase-collapse {
+  border: 1px solid rgb(240, 9, 9);
+  border-radius: 8px;
+  background-color: white;
+  width: 90%;
+  height: 45%;
+  margin: 0% auto;
+}
+body main .wrapper .purchase-collapse .subscribe-collapse {
+  color: black;
+  font-family: nunitoRegular;
+  padding: 2px 10px 2px 10px;
+  margin: 4% auto;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+body main .wrapper .purchase-collapse .subscribe-collapse .h6-sub {
+  margin-left: 5%;
+  font-family: nunitoExtraBold;
+  color: rgba(128, 128, 128, 0.598);
+}
+body main .wrapper .purchase-collapse .subscribe-collapse a {
+  color: rgb(42, 41, 41);
+  padding: 7px 55px 8px 10px;
+}
+body main .wrapper .purchase-collapse .subscribe-collapse a:hover {
+  background-color: rgb(197, 193, 193);
+  border-radius: 8px;
+}
 body main .section-2 {
   border: 1px solid rgb(179, 239, 12);
   width: 83%;
