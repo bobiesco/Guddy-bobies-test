@@ -47,8 +47,8 @@ body {
     main {
         display: flex;
         justify-content: flex-end;
-        border: 1px solid green;
-        height: auto;
+        // border: 1px solid green;
+        min-height: 100vh;
       
         
         .wrapper{
@@ -233,6 +233,7 @@ body {
                     }
                 }
 
+
                 .purchase-collapse{
                     border: 1px solid $pureWhiteColor;
                     border-radius: 8px;
@@ -240,7 +241,6 @@ body {
                     width: 90%;
                     height: 45%;
                     margin: 0% auto;
-                    display: block;
                    
                     .subscribe-collapse{  
                         color: black;
@@ -311,14 +311,15 @@ body {
         }
 
         .section-2 {
-            border: 1px solid rgb(179, 239, 12);
+            // border: 1px solid rgb(179, 239, 12);
             width: 83%;
+            // border: 1px solid black;
 
             nav {
                 display: flex;
                 justify-content: flex-end;
                 align-items: center;
-                height: 8.5%;
+                height: 11.3vh;
                 // border: 1px solid rgb(225, 11, 11);
                 box-shadow: 10px 2px 20px 4px rgb(225, 221, 221);
 
@@ -355,4 +356,11 @@ body {
 
 
     }
+
+    .hide{
+        display: none !important;
+    }
+
+   
 }
+ 

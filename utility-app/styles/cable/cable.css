@@ -27,8 +27,7 @@ body {
 body main {
   display: flex;
   justify-content: flex-end;
-  border: 1px solid green;
-  height: auto;
+  min-height: 100vh;
 }
 body main .wrapper {
   background-color: #4e73df;
@@ -156,7 +155,6 @@ body main .wrapper .section-1 .purchase-collapse {
   width: 90%;
   height: 45%;
   margin: 0% auto;
-  display: block;
 }
 body main .wrapper .section-1 .purchase-collapse .subscribe-collapse {
   color: black;
@@ -204,14 +202,13 @@ body main .wrapper .section-1 .purchase-collapse .subscribe-collapse .a-fun .new
   color: white;
 }
 body main .section-2 {
-  border: 1px solid rgb(179, 239, 12);
   width: 83%;
 }
 body main .section-2 nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  height: 8.5%;
+  height: 11.3vh;
   box-shadow: 10px 2px 20px 4px rgb(225, 221, 221);
 }
 body main .section-2 nav .side-bar-divider {
@@ -227,4 +224,7 @@ body main .section-2 nav .avatar {
   width: 70%;
   margin-left: -20%;
   border: 1px solid rgb(133, 131, 131);
+}
+body .hide {
+  display: none !important;
 }/*# sourceMappingURL=cable.css.map */
