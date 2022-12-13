@@ -12,10 +12,17 @@
 body {
   box-sizing: border-box;
 }
+body main {
+  display: flex;
+  justify-content: flex-end;
+  border: 1px solid green;
+  height: 100%;
+}
 body main .wrapper {
   background-color: #4e73df;
   width: 17%;
   height: 100%;
+  border: 1px solid red;
 }
 body main .wrapper .section-1 {
   text-align: center;
@@ -24,7 +31,6 @@ body main .wrapper .section-1 .logo-div {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
 }
 body main .wrapper .section-1 .logo-div .logo {
   height: 25%;
@@ -96,4 +102,29 @@ body main .wrapper .section-1 ul li .clock {
 body main .wrapper .section-1 ul .finance {
   font-size: 100%;
   text-align: start;
+}
+body main .section-2 {
+  border: 1px solid rgb(179, 239, 12);
+  width: 83%;
+}
+body main .section-2 nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 11.8%;
+  box-shadow: 5px 2px 20px 4px rgb(225, 221, 221);
+}
+body main .section-2 nav .side-bar-divider {
+  width: 3%;
+  height: 0%;
+  border: 1px solid rgba(183, 173, 173, 0.183);
+  margin-right: 2%;
+  transform: rotate(90deg);
+}
+body main .section-2 nav .avatar {
+  border-radius: 100%;
+  height: 50%;
+  width: 70%;
+  margin-left: -20%;
+  border: 1px solid red;
 }/*# sourceMappingURL=cable.css.map */

@@ -29,13 +29,20 @@ body {
     // background-color: rgb(55, 0, 255);
    
 
-     main {
+    main {
+        display: flex;
+        justify-content: flex-end;
+        border: 1px solid green;
+        height: 100%;
+      
         
         .wrapper{
             // background-color: #4e73df;
             background-color: $wrapperBgColor;
             width: 17%;
             height: 100%;
+            border: 1px solid red;
+            
 
 
             .section-1{
@@ -49,7 +56,7 @@ body {
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    border: 1px solid black;
+                    // border: 1px solid black;
     
                     .logo{
                         height: 25%;
@@ -166,10 +173,53 @@ body {
                 
             }
 
+           
+
         }
+
+        .section-2 {
+            border: 1px solid rgb(179, 239, 12);
+            width: 83%;
+
+            nav {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                height: 11.8%;
+                // border: 1px solid rgb(225, 11, 11);
+                box-shadow: 5px 2px 20px 4px rgb(225, 221, 221);
+
+
+                .side-bar-divider{
+                    width: 3%;
+                    height: 0%;
+                    // margin-top:2%;
+                    // border-top: 1px solid rgb(191, 44, 44);
+                    // margin-bottom: 4%;
+                    border: 1px solid rgba(183, 173, 173, 0.183);
+                    // border: 1px solid black;
+                    margin-right: 2%;
+                    transform: rotate(90deg);
+                    
+
+                }
+
+                .avatar{
+                    border-radius: 100%;
+                    // border: 10px solid red;
+                    height: 50%;
+                    width: 70%;
+                    margin-left: -20%;
+                    border: 1px solid red;
+                    // padding-right: 20%;
+                }
+            }
+        }
+
+        
        
 
 
 
-     }
+    }
 }
