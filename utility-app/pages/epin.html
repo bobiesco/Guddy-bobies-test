@@ -4,13 +4,15 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./../styles/cable/cable.css">
+        <link rel="stylesheet" href="./../styles/template/template.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Nunito:wght@200&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Nunito:wght@200&family=Xanh+Mono:ital@0;1&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">        <title>Utility App</title>
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> 
+        <link rel="stylesheet" href="../styles/Epin/epin.css">       
+        <title>Utility App</title>
     </head>
     <body>
         
@@ -19,7 +21,7 @@
                 <section class="section-1">
                     <br>
                     <div class="logo-div">
-                         <a href="#"><h1 class="h1">NATA</h1></a>
+                         <a href="./Nata.NG.html"><h1 class="h1">NATA</h1></a>
                     </div>
                     <br>
                                         
@@ -65,7 +67,7 @@
                         <hr class="side-bar-divider">
                         <br> <br>
 
-                        <li class=""> <a href="./epin.html"> <img class="gift" src="./../images/gift (1).svg" alt="gift"> EPIN <div class="new-span">New</div> </a></li> 
+                        <li class=""> <a href=""> <img class="gift" src="./../images/gift (1).svg" alt="gift"> EPIN <div class="new-span">New</div> </a></li> 
                         <br>
                         <hr class="side-bar-divider">
                         <br>
@@ -98,7 +100,7 @@
 
                         <h2 class="finances-h2">TOOLS</h2>
                         <br>
-                        <li class=""> <a href="./schedule.html"> <img class="clock" src="./../images/clock-three.svg" alt="clock"> Schedule </a></li>
+                        <li class=""> <a href=""> <img class="clock" src="./../images/clock-three.svg" alt="clock"> Schedule </a></li>
                         <br>
                         <hr class="side-bar-divider-clock">
                         <br>
@@ -125,7 +127,7 @@
                         <br>
                         <a class="a-male" href=""><img class="male" src="./../images/Vector (8).svg" alt="user"> Profile</a>
                         <br><br>
-                        <a class="a-logout" href="./modal.html">  <img class="logout" src="./../images/logout.svg" alt="logout"> Logout</a>
+                        <a class="a-logout" href="">  <img class="logout" src="./../images/logout.svg" alt="logout"> Logout</a>
                         <br><br>
                         
                        
@@ -136,50 +138,38 @@
                 </div>
                 
                 <div class="main-div">
-                    <p class="p-div"> Your current balance is <b>N1,370</b> </p>
-                    <br>
+                    <div class="container">
 
-                    <select class="select-1" name="provider" id="provider" >
-                        <option value="select">Select a TV Provider</option>
-                        <option value="gotv">GoTv</option>
-                        <option value="dstv">DSTV</option>
-                        <option value="startimes">Startimes</option>
-                    </select>
-                    <br><br>
-                    <select class="select-2" name="cars" id="cars">
-                        <option value="volvo">Select GoTv Bundle</option>
-                        <option value="saab">GoTv Max - N4150</option>
-                        <option value="saab">GoTv Jolli Bouque - N2800</option>
-                        <option value="saab">GoTv Jinja Bouque - N1950</option>
-                        <option value="saab">GoTv Jinja Supa - N5500</option>
-                        <option value="saab">GoTv Smallie(Monthly) - N900</option>
-                        <option value="saab">GoTv Smallie(Monthly) - N2400</option>
-                        <option value="saab">GoTv Smallie(Yearly) - N7000</option>
-                    </select>
-                    <br><br>
-
-                    
-                    <form action="">
-                        <label class="label" for="icu"></label>
-                        <input class="first-input" type="text" id="icu" name="icu" value="" placeholder="ICU">
-                    </form>
-
-                    <br>
-
-                    <button class="btn-verify"> Verify </button>
-                    <br><br>
-
-                    <form action="">
-                        <label class="label" for=""></label>
-                        <input class="second-input" type="text" id="first_name" name="first" value="" placeholder="Name will appear here" readonly>
-                    </form>
-                    <br>
-
-                    <button class="btn-proceed"> Proceed </button>
-                    <br><br>
-                    <hr class="side-bar-divider">
-                    
-                    <!-- <p class="p-div"> You will pay an additional charge of N100! Total will be<b>N1,470</b> </p> -->
+                        <h6>E-PIN <span class="badge">New</span></h6>
+                
+                        <p>Introducing E -PIN, a way you can gift your loved ones, fans or anyone airtime seamlessly.
+                            How does it work?
+                            You generate a 12 digit pin, share it to your loved one, they can redeem it at www.nata.ng/redeem in any
+                            network of their choosing.</p>
+                
+                        <p> Your current balance is <b style="color: black">₦390</b></p>
+                
+                        <form method="post" action="" class="post">
+                            <div class="amount ">
+                                <input type="number" class="form" min="100" name="amount" placeholder="N100" required="">
+                
+                            </div>
+                
+                
+                
+                            <div class="actions">
+                                <input class="btn" type="submit" value="Create">
+                            </div>
+                        </form>
+                        <hr class="hr">
+                        <br>
+                        <h5></h5>
+                        <div class="alert-info" role="alert">
+                            After you create a pin, your will see the 12 digit voucher here. It will also be in your transaction history
+                            as reference
+                        
+                        </div>
+                    </div>
                 </div>
                 
                 <footer>
@@ -192,7 +182,7 @@
             </section>
         </main> 
 
-        <script src="./../scripts/cable.js"></script>
+        <script src="./../scripts/template.js"></script>
        
     </body>
 </html>
