@@ -1,0 +1,65 @@
+
+/* @font-face {
+  font-family: 'LineIcons';
+  src: url('../fonts/LineIcons.eot');
+  src: url('../fonts/LineIcons.eot') format('embedded-opentype'), url('../fonts/LineIcons.woff2') format('woff2'), url('../fonts/LineIcons.woff') format('woff'), url('../fonts/LineIcons.ttf') format('truetype'), url('../fonts/LineIcons.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+} */
+/* .lni {
+  display: inline-block;
+  font: normal normal normal 1em/1 'LineIcons';
+  color: inherit;
+  flex-shrink: 0;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+.lni-sm {
+  font-size: 0.8em;
+}
+.lni-lg {
+  font-size: 1.2em;
+}
+.lni-16 {
+  font-size: 16px;
+}
+.lni-32 {
+  font-size: 32px;
+}
+
+/*------------------------
+  spinning icons
+-------------------------*/
+.lni-is-spinning {
+  animation: lni-spin 1s infinite linear;
+}
+@keyframes lni-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.lni-rotate-90 {
+  transform: rotate(90deg);
+}
+.lni-rotate-180 {
+  transform: rotate(180deg);
+}
+.lni-rotate-270 {
+  transform: rotate(270deg);
+}
+.lni-flip-y {
+  transform: scaleY(-1);
+}
+.lni-flip-x {
+  transform: scaleX(-1);
+}
+
+
+
