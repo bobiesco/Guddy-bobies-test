@@ -266,14 +266,17 @@ body main .section-2 .main-div .side-bar-divider {
   border: 1px solid rgba(224, 215, 215, 0.183);
   margin: 0 auto;
 }
-body main .section-2 .main-div footer .footer-p {
+body main .section-2 footer {
+  background-color: white;
+  padding: 5% 0;
+}
+body main .section-2 footer .footer-p {
   font-family: nunitoSemiBold;
   color: rgb(135, 135, 138);
+  text-align: center;
+  font-size: 80%;
 }
-body main .section-2 .main-div footer hr {
-  border-top: 1px solid black;
-}
-body main .section-2 .main-div .side-bar-divider-straight {
+body main .section-2 footer .footer-p .side-bar-divider-straight {
   width: 90%;
   height: 0%;
   border: 100px solid rgba(224, 215, 215, 0.183);

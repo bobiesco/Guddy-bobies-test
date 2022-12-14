@@ -411,41 +411,54 @@ body {
 
                 }
 
-                footer{
-
-                    .footer-p {
-                        font-family: nunitoSemiBold;
-                        color: $lightText;
-                        
-                    }
-
-                    hr{
-                        border-top: 1px solid black;
-                    }
-
-                   
-                }
-                .side-bar-divider-straight{
-                    width: 90%;
-                    height: 0%;
-                    // margin-left: 10%;
-                    // border-top: 1px solid rgb(191, 44, 44);
-                    // margin-bottom: 4%;
-                    border: 100px solid rgba(224, 215, 215, 0.183);
-                    margin: 0 auto;
-                    // transform: rotate(90deg);
-                    border-top: 1px;
-                    
-                }
+               
+               
                
                 
+            }
+
+            footer{
+                // border: 1px solid red;
+                background-color: $pureWhiteColor;
+                // margin: 200px 0;
+                padding: 5% 0;
+
+                .footer-p {
+                    font-family: nunitoSemiBold;
+                    color: $lightText;
+                    text-align: center;
+                    font-size: 80%;
+                    // border: 1px solid black;
+
+                    // .hr-line {
+                    //     margin-bottom: 20000%;
+                    // }
+
+                    .side-bar-divider-straight{
+                        width: 90%;
+                        height: 0%;
+                        // margin-left: 10%;
+                        // border-top: 1px solid rgb(191, 44, 44);
+                        // margin-bottom: 4%;
+                        border: 100px solid rgba(224, 215, 215, 0.183);
+                        margin: 0 auto;
+                        // transform: rotate(90deg);
+                        border-top: 1px;
+                        
+                    }
+                    
+                }
+
+                // hr{
+                //     border-top: 1px solid black;
+                // }
+
+               
             }
         }
 
         
-       
-
-
+    
 
     }
 
