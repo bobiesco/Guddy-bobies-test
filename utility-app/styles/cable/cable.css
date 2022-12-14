@@ -379,6 +379,7 @@ body main .section-2 .main-div .btn-verify {
   font-size: 105%;
   height: 37px;
   width: 6%;
+  cursor: pointer;
 }
 body main .section-2 .main-div .btn-verify:hover {
   background-color: #2b5df2;
@@ -405,6 +406,7 @@ body main .section-2 .main-div .btn-proceed {
   font-size: 105%;
   height: 37px;
   width: 8%;
+  cursor: pointer;
 }
 body main .section-2 .main-div .btn-proceed:hover {
   background-color: #2b5df2;
