@@ -200,6 +200,8 @@ body {
                             margin-bottom: -1.5%;
                         }
 
+                       
+
                         .transaction {
                             height: 100%;
                             width: 8%; 
@@ -217,11 +219,59 @@ body {
 
                         }
 
+
+                    }
+
+                    .fund-collapse{
+                        border: 1px solid $pureWhiteColor;
+                        border-radius: 8px;
+                        background-color: $pureWhiteColor;
+                        width: 90%;
+                        height: 45%;
+                        margin: 0% auto;
+                        display: none;
                        
-
-                       
-
-
+                        .pay-collapse{  
+                            color: black;
+                            font-family: nunitoRegular;
+                            // margin-left: 10%;
+                            padding: 2px 10px 2px 10px;
+                            margin: 4% auto;
+                            border-radius: 8px;
+                            // border: 1px solid black;
+        
+        
+                            .h6-sub{
+                                margin-left: 5%;
+                                font-family: nunitoExtraBold;
+                                color: rgba(128, 128, 128, 0.598);
+                            }
+        
+                            a{
+                                color: rgb(42, 41, 41);
+                                padding: 7px 55px 8px 10px;
+                                
+                                // padding: 2px 2px;
+                                // margin: 0 auto;
+        
+                                &:hover {
+                                    background-color: rgb(234, 228, 228);
+                                    border-radius: 8px;
+                                    // border: 1px solid black; 
+                                    // height: 20%;
+                                    // width: 50%; 
+                                }
+                            }
+                            .a-air{
+                                padding: 7px 130px 8px 10px;
+                            }
+                            .a-dat{
+                                padding: 7px 127px 8px 10px;
+                            }
+                           
+    
+                                   
+                        }
                     }
 
                     .side-bar-divider-clock{
@@ -566,6 +616,10 @@ body {
     }
 
     .hide{
+        display: block !important;
+    }
+
+    .hide2{
         display: block !important;
     }
 
