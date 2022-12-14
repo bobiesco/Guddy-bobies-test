@@ -203,12 +203,14 @@ body main .wrapper .section-1 .purchase-collapse .subscribe-collapse .a-fun .new
 }
 body main .section-2 {
   width: 83%;
+  background-color: rgb(251, 251, 247);
 }
 body main .section-2 nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   height: 11.3vh;
+  background-color: white;
   box-shadow: 10px 2px 20px 4px rgb(225, 221, 221);
 }
 body main .section-2 nav .side-bar-divider {
@@ -224,6 +226,58 @@ body main .section-2 nav .avatar {
   width: 70%;
   margin-left: -20%;
   border: 1px solid rgb(133, 131, 131);
+}
+body main .section-2 .main-div {
+  font-family: nunitoSemiBold;
+  color: rgb(135, 135, 138);
+}
+body main .section-2 .main-div .p-div {
+  font-family: nunitoSemiBold;
+  color: rgb(135, 135, 138);
+}
+body main .section-2 .main-div .select-1 {
+  font-family: nunitoSemiBold;
+  color: rgb(135, 135, 138);
+}
+body main .section-2 .main-div .select-2 {
+  font-family: nunitoSemiBold;
+  color: rgb(135, 135, 138);
+}
+body main .section-2 .main-div .first-input {
+  font-family: nunitoSemiBold;
+  color: rgb(135, 135, 138);
+}
+body main .section-2 .main-div .btn-verify {
+  font-family: nunitoSemiBold;
+  color: rgb(135, 135, 138);
+}
+body main .section-2 .main-div .second-input {
+  font-family: nunitoSemiBold;
+  color: rgb(135, 135, 138);
+}
+body main .section-2 .main-div .btn-proceed {
+  font-family: nunitoSemiBold;
+  color: rgb(135, 135, 138);
+}
+body main .section-2 .main-div .side-bar-divider {
+  width: 90%;
+  height: 0%;
+  border: 1px solid rgba(224, 215, 215, 0.183);
+  margin: 0 auto;
+}
+body main .section-2 .main-div footer .footer-p {
+  font-family: nunitoSemiBold;
+  color: rgb(135, 135, 138);
+}
+body main .section-2 .main-div footer hr {
+  border-top: 1px solid black;
+}
+body main .section-2 .main-div .side-bar-divider-straight {
+  width: 90%;
+  height: 0%;
+  border: 100px solid rgba(224, 215, 215, 0.183);
+  margin: 0 auto;
+  border-top: 1px;
 }
 body .hide {
   display: none !important;

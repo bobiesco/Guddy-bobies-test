@@ -314,12 +314,14 @@ body {
             // border: 1px solid rgb(179, 239, 12);
             width: 83%;
             // border: 1px solid black;
+            background-color: rgb(251, 251, 247);
 
             nav {
                 display: flex;
                 justify-content: flex-end;
                 align-items: center;
                 height: 11.3vh;
+                background-color: $pureWhiteColor;
                 // border: 1px solid rgb(225, 11, 11);
                 box-shadow: 10px 2px 20px 4px rgb(225, 221, 221);
 
@@ -347,6 +349,95 @@ body {
                     border: 1px solid rgb(133, 131, 131);
                     
                 }
+            }
+
+            .main-div {
+                font-family: nunitoSemiBold;
+                color: $lightText;
+                // background-color: rgb(206, 206, 206);
+
+                .p-div {
+                    font-family: nunitoSemiBold;
+                    color: $lightText;
+
+                }
+
+                .select-1 {
+                    font-family: nunitoSemiBold;
+                    color: $lightText;
+
+                }
+
+                .select-2 {
+                    font-family: nunitoSemiBold;
+                    color: $lightText;
+
+                }
+
+                .first-input {
+                    font-family: nunitoSemiBold;
+                    color: $lightText;
+
+                }
+
+                .btn-verify {
+                    font-family: nunitoSemiBold;
+                    color: $lightText;
+
+                }
+
+                .second-input{
+                    font-family: nunitoSemiBold;
+                    color: $lightText;
+
+                }
+
+                .btn-proceed {
+                    font-family: nunitoSemiBold;
+                    color: $lightText;
+
+                }
+
+                .side-bar-divider{
+                    width: 90%;
+                    height: 0%;
+                    // margin-left: 10%;
+                    // border-top: 1px solid rgb(191, 44, 44);
+                    // margin-bottom: 4%;
+                    border: 1px solid rgba(224, 215, 215, 0.183);
+                    margin: 0 auto;
+                    
+
+                }
+
+                footer{
+
+                    .footer-p {
+                        font-family: nunitoSemiBold;
+                        color: $lightText;
+                        
+                    }
+
+                    hr{
+                        border-top: 1px solid black;
+                    }
+
+                   
+                }
+                .side-bar-divider-straight{
+                    width: 90%;
+                    height: 0%;
+                    // margin-left: 10%;
+                    // border-top: 1px solid rgb(191, 44, 44);
+                    // margin-bottom: 4%;
+                    border: 100px solid rgba(224, 215, 215, 0.183);
+                    margin: 0 auto;
+                    // transform: rotate(90deg);
+                    border-top: 1px;
+                    
+                }
+               
+                
             }
         }
 
