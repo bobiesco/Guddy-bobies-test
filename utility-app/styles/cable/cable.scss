@@ -282,7 +282,7 @@ body {
                         // margin-bottom: 4%;
                         border: 1px solid rgba(224, 215, 215, 0.183);
                         margin: 0 auto;
-                        margin-bottom: 30%;
+                        margin-bottom: 36%;
                         
     
                     }
@@ -422,6 +422,76 @@ body {
                 }
             }
 
+            .holla-collapse{
+                border: 1px solid $pureWhiteColor;
+                border-radius: 8px;
+                background-color: $pureWhiteColor;
+                width: 10%;
+                height: 22%;
+                margin: 0% auto;
+                box-shadow: 0px 1px 10px 4px rgb(201, 198, 198);
+                display: block;
+                position: absolute;
+                right: 20px;
+               
+                .hey-collapse{  
+                    color: black;
+                    font-family: nunitoRegular;
+                    // margin-left: 10%;
+                    padding: 2px 10px 2px 10px;
+                    margin: 4% auto;
+                    border-radius: 8px;
+                    // border: 1px solid black;
+                   
+                    
+
+
+                    .h6-sub{
+                        margin-left: 5%;
+                        font-family: nunitoExtraBold;
+                        color: rgba(128, 128, 128, 0.598);
+                    }
+
+                    a{
+                        color: rgb(42, 41, 41);
+                        padding: 7px 55px 8px 10px;
+                        
+                        // padding: 2px 2px;
+                        // margin: 0 auto;
+
+                        &:hover {
+                            background-color: rgb(234, 228, 228);
+                            border-radius: 8px;
+                            // border: 1px solid black; 
+                            // height: 20%;
+                            // width: 50%; 
+                        }
+                    }
+                    .a-male{
+                        padding: 7px 35px 8px 10px;
+                        text-decoration: none;
+                        
+
+                        .male {
+                            height: 10%;
+                            width: 15%;
+                        }
+                    }
+                    .a-logout{
+                        padding: 7px 32px 8px 10px;
+                        text-decoration: none;
+
+                        .logout {
+                            height: 10%;
+                            width: 15%;
+                            margin-top: 2%;
+                            
+                        }
+                    }
+
+                }
+            }
+
             .main-div {
                 font-family: nunitoSemiBold;
                 color: $lightText;
@@ -441,7 +511,7 @@ body {
                     border: 1px solid $inputBorder;
                     border-radius: 5px;
                     width: 98%;
-                    height: 6%;
+                    height: 37px;
              
 
                     &:hover {
@@ -460,7 +530,7 @@ body {
                     border: 1px solid $inputBorder;
                     border-radius: 5px;
                     width: 98%;
-                    height: 6%;
+                    height: 37px;
 
                     &:hover {
                         outline: 3px solid $inputBorderOutlineMain;
@@ -478,7 +548,7 @@ body {
                     border: 1px solid $inputBorder;
                     border-radius: 5px;
                     width: 98%;
-                    height: 6%;
+                    height: 37px;
                     padding: 0 5px;
              
 
@@ -498,7 +568,7 @@ body {
                     border-radius: 5px;
                     font-size: 105%;
                     // border: 1px solid blue;
-                    height: 6%;
+                    height: 37px;
                     width: 6%;
 
                     &:hover {
@@ -514,7 +584,7 @@ body {
                     border: 1px solid $inputBorder;
                     border-radius: 5px;
                     width: 98%;
-                    height: 6%;
+                    height: 37px;
                     padding: 0 5px;
                     background-color: rgba(225, 229, 249, 0.811);
              
@@ -535,7 +605,7 @@ body {
                     border-radius: 5px;
                     font-size: 105%;
                     // border: 1px solid blue;
-                    height: 6%;
+                    height: 37px;
                     width: 8%;
 
                     &:hover {

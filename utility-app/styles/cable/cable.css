@@ -177,7 +177,7 @@ body main .wrapper .section-1 ul .side-bar-divider-clock {
   height: 0%;
   border: 1px solid rgba(224, 215, 215, 0.183);
   margin: 0 auto;
-  margin-bottom: 30%;
+  margin-bottom: 36%;
 }
 body main .wrapper .section-1 ul .finance {
   font-size: 100%;
@@ -270,6 +270,55 @@ body main .section-2 nav .avatar {
   margin-left: -20%;
   border: 1px solid rgb(133, 131, 131);
 }
+body main .section-2 .holla-collapse {
+  border: 1px solid white;
+  border-radius: 8px;
+  background-color: white;
+  width: 10%;
+  height: 22%;
+  margin: 0% auto;
+  box-shadow: 0px 1px 10px 4px rgb(201, 198, 198);
+  display: block;
+  position: absolute;
+  right: 20px;
+}
+body main .section-2 .holla-collapse .hey-collapse {
+  color: black;
+  font-family: nunitoRegular;
+  padding: 2px 10px 2px 10px;
+  margin: 4% auto;
+  border-radius: 8px;
+}
+body main .section-2 .holla-collapse .hey-collapse .h6-sub {
+  margin-left: 5%;
+  font-family: nunitoExtraBold;
+  color: rgba(128, 128, 128, 0.598);
+}
+body main .section-2 .holla-collapse .hey-collapse a {
+  color: rgb(42, 41, 41);
+  padding: 7px 55px 8px 10px;
+}
+body main .section-2 .holla-collapse .hey-collapse a:hover {
+  background-color: rgb(234, 228, 228);
+  border-radius: 8px;
+}
+body main .section-2 .holla-collapse .hey-collapse .a-male {
+  padding: 7px 35px 8px 10px;
+  text-decoration: none;
+}
+body main .section-2 .holla-collapse .hey-collapse .a-male .male {
+  height: 10%;
+  width: 15%;
+}
+body main .section-2 .holla-collapse .hey-collapse .a-logout {
+  padding: 7px 32px 8px 10px;
+  text-decoration: none;
+}
+body main .section-2 .holla-collapse .hey-collapse .a-logout .logout {
+  height: 10%;
+  width: 15%;
+  margin-top: 2%;
+}
 body main .section-2 .main-div {
   font-family: nunitoSemiBold;
   color: rgb(135, 135, 138);
@@ -286,7 +335,7 @@ body main .section-2 .main-div .select-1 {
   border: 1px solid rgb(175, 175, 179);
   border-radius: 5px;
   width: 98%;
-  height: 6%;
+  height: 37px;
 }
 body main .section-2 .main-div .select-1:hover {
   outline: 3px solid rgb(174, 201, 223);
@@ -301,7 +350,7 @@ body main .section-2 .main-div .select-2 {
   border: 1px solid rgb(175, 175, 179);
   border-radius: 5px;
   width: 98%;
-  height: 6%;
+  height: 37px;
 }
 body main .section-2 .main-div .select-2:hover {
   outline: 3px solid rgb(174, 201, 223);
@@ -316,7 +365,7 @@ body main .section-2 .main-div .first-input {
   border: 1px solid rgb(175, 175, 179);
   border-radius: 5px;
   width: 98%;
-  height: 6%;
+  height: 37px;
   padding: 0 5px;
 }
 body main .section-2 .main-div .first-input:focus {
@@ -328,7 +377,7 @@ body main .section-2 .main-div .btn-verify {
   background-color: #4e73df;
   border-radius: 5px;
   font-size: 105%;
-  height: 6%;
+  height: 37px;
   width: 6%;
 }
 body main .section-2 .main-div .btn-verify:hover {
@@ -341,7 +390,7 @@ body main .section-2 .main-div .second-input {
   border: 1px solid rgb(175, 175, 179);
   border-radius: 5px;
   width: 98%;
-  height: 6%;
+  height: 37px;
   padding: 0 5px;
   background-color: rgba(225, 229, 249, 0.811);
 }
@@ -354,7 +403,7 @@ body main .section-2 .main-div .btn-proceed {
   background-color: #4e73df;
   border-radius: 5px;
   font-size: 105%;
-  height: 6%;
+  height: 37px;
   width: 8%;
 }
 body main .section-2 .main-div .btn-proceed:hover {
