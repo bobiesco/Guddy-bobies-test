@@ -155,6 +155,7 @@ body main .wrapper .section-1 .purchase-collapse {
   width: 90%;
   height: 45%;
   margin: 0% auto;
+  display: none;
 }
 body main .wrapper .section-1 .purchase-collapse .subscribe-collapse {
   color: black;
@@ -280,5 +281,5 @@ body main .section-2 .main-div .side-bar-divider-straight {
   border-top: 1px;
 }
 body .hide {
-  display: none !important;
+  display: block !important;
 }/*# sourceMappingURL=cable.css.map */

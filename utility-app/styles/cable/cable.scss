@@ -241,6 +241,7 @@ body {
                     width: 90%;
                     height: 45%;
                     margin: 0% auto;
+                    display: none;
                    
                     .subscribe-collapse{  
                         color: black;
@@ -449,7 +450,7 @@ body {
     }
 
     .hide{
-        display: none !important;
+        display: block !important;
     }
 
    
