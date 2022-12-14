@@ -137,6 +137,13 @@ body main .wrapper .section-1 ul li .clock {
   margin-right: 2%;
   margin-bottom: -1.5%;
 }
+body main .wrapper .section-1 ul .side-bar-divider-clock {
+  width: 90%;
+  height: 0%;
+  border: 1px solid rgba(224, 215, 215, 0.183);
+  margin: 0 auto;
+  margin-bottom: 30%;
+}
 body main .wrapper .section-1 ul .finance {
   font-size: 100%;
   text-align: start;
@@ -231,34 +238,78 @@ body main .section-2 nav .avatar {
 body main .section-2 .main-div {
   font-family: nunitoSemiBold;
   color: rgb(135, 135, 138);
+  margin-left: 2%;
 }
 body main .section-2 .main-div .p-div {
   font-family: nunitoSemiBold;
   color: rgb(135, 135, 138);
 }
 body main .section-2 .main-div .select-1 {
-  font-family: nunitoSemiBold;
+  font-family: nunitoRegular;
   color: rgb(135, 135, 138);
+  font-size: 105%;
+  border: 1px solid rgb(175, 175, 179);
+  border-radius: 5px;
+  width: 98%;
+  height: 6%;
+}
+body main .section-2 .main-div .select-1:hover {
+  outline: 3px solid rgb(174, 201, 223);
+}
+body main .section-2 .main-div .select-1:focus {
+  outline: 3px solid rgb(174, 201, 223);
 }
 body main .section-2 .main-div .select-2 {
-  font-family: nunitoSemiBold;
+  font-family: nunitoRegular;
   color: rgb(135, 135, 138);
+  font-size: 105%;
+  border: 1px solid rgb(175, 175, 179);
+  border-radius: 5px;
+  width: 98%;
+  height: 6%;
+}
+body main .section-2 .main-div .select-2:hover {
+  outline: 3px solid rgb(174, 201, 223);
+}
+body main .section-2 .main-div .select-2:focus {
+  outline: 3px solid rgb(174, 201, 223);
 }
 body main .section-2 .main-div .first-input {
-  font-family: nunitoSemiBold;
+  font-family: nunitoRegular;
   color: rgb(135, 135, 138);
+  font-size: 105%;
+  border: 1px solid rgb(175, 175, 179);
+  border-radius: 5px;
+  width: 98%;
+  height: 6%;
+  padding: 0 5px;
+}
+body main .section-2 .main-div .first-input:focus {
+  outline: 3px solid rgb(174, 201, 223);
 }
 body main .section-2 .main-div .btn-verify {
   font-family: nunitoSemiBold;
   color: rgb(135, 135, 138);
+  font-size: 105%;
 }
 body main .section-2 .main-div .second-input {
   font-family: nunitoSemiBold;
   color: rgb(135, 135, 138);
+  font-size: 105%;
+  border: 1px solid rgb(175, 175, 179);
+  border-radius: 5px;
+  width: 98%;
+  height: 6%;
+  padding: 0 5px;
+  background-color: rgba(225, 229, 249, 0.811);
+}
+body main .section-2 .main-div .second-input:focus {
+  outline: 3px solid rgb(174, 201, 223);
 }
 body main .section-2 .main-div .btn-proceed {
   font-family: nunitoSemiBold;
   color: rgb(135, 135, 138);
+  font-size: 105%;
 }
 body main .section-2 .main-div .side-bar-divider {
   width: 90%;
@@ -269,12 +320,21 @@ body main .section-2 .main-div .side-bar-divider {
 body main .section-2 footer {
   background-color: white;
   padding: 5% 0;
+  margin-top: 5%;
 }
 body main .section-2 footer .footer-p {
   font-family: nunitoSemiBold;
   color: rgb(135, 135, 138);
   text-align: center;
   font-size: 80%;
+}
+body main .section-2 footer .footer-p .a-become {
+  text-decoration: none;
+  color: #4e73df;
+}
+body main .section-2 footer .footer-p .a-contact {
+  text-decoration: none;
+  color: #4e73df;
 }
 body main .section-2 footer .footer-p .side-bar-divider-straight {
   width: 90%;
