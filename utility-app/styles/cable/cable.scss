@@ -6,6 +6,7 @@ $pureRed: red;
 $pureBlack: black;
 $inputBorder: rgb(175, 175, 179);
 $blueText: #4e73df;
+$blueTextDark: #2b5df2;
 $lightText: rgb(135, 135, 138);
 $inputOutline: 3px solid rgb(210, 206, 206);
 $inputBorderOutlineMain: rgb(174, 201, 223);
@@ -441,9 +442,18 @@ body {
                 }
 
                 .btn-verify {
-                    font-family: nunitoSemiBold;
-                    color: $lightText;
+                    font-family: nunitoRegular;
+                    color: $pureWhiteColor;
+                    background-color: $blueText;
+                    border-radius: 5px;
                     font-size: 105%;
+                    // border: 1px solid blue;
+                    height: 6%;
+                    width: 6%;
+
+                    &:hover {
+                        background-color: $blueTextDark;
+                    }
 
                 }
 
@@ -469,22 +479,29 @@ body {
                 }
 
                 .btn-proceed {
-                    font-family: nunitoSemiBold;
-                    color: $lightText;
+                    font-family: nunitoRegular;
+                    color: $pureWhiteColor;
+                    background-color: $blueText;
+                    border-radius: 5px;
                     font-size: 105%;
+                    // border: 1px solid blue;
+                    height: 6%;
+                    width: 8%;
 
+                    &:hover {
+                        background-color: $blueTextDark;
+                    }
                 }
 
                 .side-bar-divider{
-                    width: 90%;
+                    width: 97.8%;
                     height: 0%;
                     // margin-left: 10%;
                     // border-top: 1px solid rgb(191, 44, 44);
                     // margin-bottom: 4%;
-                    border: 1px solid rgba(224, 215, 215, 0.183);
-                    margin: 0 auto;
+                    border: 1px solid rgba(224, 215, 215, 0.628);
+                    // margin: 0 auto;
                     
-
                 }
 
                
@@ -497,8 +514,8 @@ body {
                 // border: 1px solid red;
                 background-color: $pureWhiteColor;
                 // margin: 200px 0;
-                padding: 5% 0;
-                margin-top: 5%;
+                padding: 2% 0;
+                margin-top: 6%;
 
                 .footer-p {
                     font-family: nunitoSemiBold;

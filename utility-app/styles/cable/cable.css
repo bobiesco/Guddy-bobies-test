@@ -288,9 +288,16 @@ body main .section-2 .main-div .first-input:focus {
   outline: 3px solid rgb(174, 201, 223);
 }
 body main .section-2 .main-div .btn-verify {
-  font-family: nunitoSemiBold;
-  color: rgb(135, 135, 138);
+  font-family: nunitoRegular;
+  color: white;
+  background-color: #4e73df;
+  border-radius: 5px;
   font-size: 105%;
+  height: 6%;
+  width: 6%;
+}
+body main .section-2 .main-div .btn-verify:hover {
+  background-color: #2b5df2;
 }
 body main .section-2 .main-div .second-input {
   font-family: nunitoSemiBold;
@@ -307,20 +314,26 @@ body main .section-2 .main-div .second-input:focus {
   outline: 3px solid rgb(174, 201, 223);
 }
 body main .section-2 .main-div .btn-proceed {
-  font-family: nunitoSemiBold;
-  color: rgb(135, 135, 138);
+  font-family: nunitoRegular;
+  color: white;
+  background-color: #4e73df;
+  border-radius: 5px;
   font-size: 105%;
+  height: 6%;
+  width: 8%;
+}
+body main .section-2 .main-div .btn-proceed:hover {
+  background-color: #2b5df2;
 }
 body main .section-2 .main-div .side-bar-divider {
-  width: 90%;
+  width: 97.8%;
   height: 0%;
-  border: 1px solid rgba(224, 215, 215, 0.183);
-  margin: 0 auto;
+  border: 1px solid rgba(224, 215, 215, 0.628);
 }
 body main .section-2 footer {
   background-color: white;
-  padding: 5% 0;
-  margin-top: 5%;
+  padding: 2% 0;
+  margin-top: 6%;
 }
 body main .section-2 footer .footer-p {
   font-family: nunitoSemiBold;
