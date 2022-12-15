@@ -323,20 +323,24 @@ body .main-body main .section-2 .holla-collapse .hey-collapse .a-logout .logout 
 body .main-body main .section-2 .main-div {
   font-family: nunitoRegular;
   font-size: 1.5rem;
+  color: rgb(135, 135, 138);
 }
 body .main-body main .section-2 .main-div .sub-div {
   position: absolute;
   right: 500px;
-  border: 1px solid black;
   width: 400px;
   height: 277px;
   background-color: white;
+  border-radius: 5px;
+  color: rgb(135, 135, 138);
+  box-shadow: 80px, 80px, 80px;
 }
 body .main-body main .section-2 .main-div .sub-div .modal-header {
   display: flex;
   padding: 0px 20px;
   justify-content: space-between;
   margin: 30px 10px;
+  color: rgb(135, 135, 138);
 }
 body .main-body main .section-2 .main-div .sub-div .close {
   border: none;
@@ -344,34 +348,42 @@ body .main-body main .section-2 .main-div .sub-div .close {
   font-size: 1.7rem;
   cursor: pointer;
   font-family: nunitoRegular;
+  color: rgb(135, 135, 138);
 }
 body .main-body main .section-2 .main-div .sub-div .modal-body {
   padding: 0px 20px;
 }
 body .main-body main .section-2 .main-div .sub-div .cancel {
-  border: 1px solid gray;
-  background-color: gray;
+  border: 1px solid rgb(116, 116, 117);
   color: white;
-  font-family: nunitoRegular;
-  border-radius: 5px;
-  font-size: 1.4rem;
+  width: 19%;
   height: 40px;
-  margin-left: 220px;
-  margin-top: 30px;
   cursor: pointer;
-  padding: 4px 4px;
+  margin-left: 200px;
+  font-family: nunitoRegular;
+  background-color: rgba(116, 116, 117, 0.733);
+  border-radius: 5px;
+  border-color: rgba(116, 116, 117, 0.158);
+}
+body .main-body main .section-2 .main-div .sub-div .cancel .cancel:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(38, 38, 238);
 }
 body .main-body main .section-2 .main-div .sub-div .logout {
-  border: 1px solid blue;
-  background-color: blue;
+  border: 1px solid rgb(38, 38, 238);
   color: white;
-  text-decoration: none;
-  border-radius: 5px;
+  width: 19%;
   height: 40px;
-  font-size: 1.4rem;
+  margin: 30px 15px;
   cursor: pointer;
   font-family: nunitoRegular;
-  padding: 4px 4px;
+  background-color: rgba(38, 38, 238, 0.733);
+  border-radius: 5px;
+  border-color: rgba(38, 38, 238, 0.158);
+}
+body .main-body main .section-2 .main-div .sub-div .logout .logout:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(38, 38, 238);
 }
 body .main-body main .section-2 footer {
   background-color: white;
