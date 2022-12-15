@@ -78,7 +78,8 @@ h1 {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 3.3rem;
+  margin-right: 90px;
 }
 
 h3 {
@@ -165,6 +166,7 @@ nav {
 
 .sticky {
   position: fixed;
+  text-align: center;
   padding: 6px 50px;
   align-items: center;
   z-index: 99;
