@@ -518,7 +518,6 @@ body {
                     .sub-div {
                         position:absolute;
                         right: 500px;
-                        border: 1px solid black;
                         width: 400px;
                         height: 277px;
                         background-color: white;
@@ -552,30 +551,43 @@ body {
     
     
                         .cancel {
-                            border: 1px solid gray;
-                            background-color: gray;
-                            color: $lightText;
-                            font-family: nunitoRegular;
-                            border-radius: 5px;
-                            font-size: 1.4rem;
+                            border: 1px solid rgb(116, 116, 117);
+                            color: white;
+                            width: 19%;
                             height: 40px;
-                            margin-left: 220px;
-                            margin-top: 30px;
                             cursor: pointer;
-                            padding: 4px 4px;
+                            margin-left: 200px;
+                            font-family: nunitoRegular;
+                            background-color: rgb(116, 116, 117, 0.733);
+                            border-radius: 5px;
+                            border-color: rgb(116, 116, 117, 0.158);
+
+                            .cancel:hover{
+                                transition: all 0.3s ease-in-out ;
+                                
+                                background-color: rgb(38, 38, 238);
+                               
+                            }
                         }
     
                         .logout {
-                            border: 1px solid blue;
-                            background-color: blue;
-                            color: $lightText;
-                            text-decoration: none;
-                            border-radius: 5px;
+                            border: 1px solid rgb(38, 38, 238);
+                            color: white;
+                            width: 19%;
                             height: 40px;
-                            font-size: 1.4rem;
+                            margin: 30px 15px;
                             cursor: pointer;
                             font-family: nunitoRegular;
-                            padding: 4px 4px;
+                            background-color: rgba(38, 38, 238, 0.733);
+                            border-radius: 5px;
+                            border-color: rgba(38, 38, 238, 0.158);
+
+                            .logout:hover{
+                                transition: all 0.3s ease-in-out ;
+                                
+                                background-color: rgb(38, 38, 238);
+                               
+                            }
                         }
                     }
     

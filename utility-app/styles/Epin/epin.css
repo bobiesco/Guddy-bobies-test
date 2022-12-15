@@ -252,7 +252,7 @@ body main .section-2 nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  height: 11.3vh;
+  height: 9.5vh;
   background-color: white;
   box-shadow: 10px 2px 20px 4px rgb(225, 221, 221);
 }
@@ -338,24 +338,24 @@ body main .section-2 .main-div .container p {
 }
 body main .section-2 .main-div .post .actions .btn {
   border: 1px solid rgb(38, 38, 238);
-  border-radius: 5px;
-  background-color: rgb(38, 38, 238);
   color: white;
   width: 5.5%;
   height: 40px;
   margin: 30px 15px;
   font-family: nunitoRegular;
+  background-color: rgba(38, 38, 238, 0.733);
+  border-radius: 5px;
+  border-color: rgba(38, 38, 238, 0.158);
 }
 body main .section-2 .main-div .post .actions .hr {
   border-top: gray;
 }
 body main .section-2 .main-div .post .actions .btn:hover {
   transition: all 0.3s ease-in-out;
-  background-color: rgba(38, 38, 238, 0.733);
-  border-color: rgba(38, 38, 238, 0.158);
+  background-color: rgb(38, 38, 238);
 }
 body main .section-2 .main-div .post .form {
-  width: 1000px;
+  width: 1092px;
   height: 40px;
   margin: 10px 15px;
   border-radius: 5px;
@@ -374,14 +374,14 @@ body main .section-2 .main-div .alert-info {
   background-color: rgb(100, 255, 203);
   color: black;
   padding: 5px 5px;
-  width: 1000px;
+  width: 1092px;
   margin: 0px 20px;
   border-radius: 4px;
 }
 body main .section-2 footer {
   background-color: white;
   padding: 2% 0;
-  margin-top: 6%;
+  margin-top: 9.8%;
 }
 body main .section-2 footer .footer-p {
   font-family: nunitoSemiBold;
