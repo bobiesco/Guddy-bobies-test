@@ -427,3 +427,45 @@ nav{
 .container{
     margin: 0px 100px;
 }
+
+
+.ud-footer-bottom {
+  padding: 35px 0;
+  border-top: 1px solid rgba(136, 144, 164, 0.43);
+}
+
+.ud-footer-bottom .ud-footer-bottom-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.ud-footer-bottom .ud-footer-bottom-left a {
+  font-weight: normal;
+  font-size: 15px;
+  color: #f3f4fe;
+  margin-right: 30px;
+  display: inline-block;
+}
+
+.ud-footer-bottom .ud-footer-bottom-left a:hover {
+  color: var(--primary-color);
+}
+
+.ud-footer-bottom .ud-footer-bottom-right {
+  text-align: right;
+  font-weight: normal;
+  font-size: 15px;
+  color: #f3f4fe;
+}
+
+.ud-footer-bottom .ud-footer-bottom-right a {
+  color: var(--primary-color);
+}
+
+.ud-footer-bottom .ud-footer-bottom-right a:hover {
+  text-decoration: underline;
+}
