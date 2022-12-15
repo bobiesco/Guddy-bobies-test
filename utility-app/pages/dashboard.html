@@ -4,14 +4,13 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./../styles/waec/waec.css">
+        <link rel="stylesheet" href="./../styles/dashboard/dashboard.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Nunito:wght@200&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Nunito:wght@200&family=Xanh+Mono:ital@0;1&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> 
-        <link rel="stylesheet" href="../styles/Epin/epin.css">       
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">        
         <title>Utility App</title>
     </head>
     <body>
@@ -21,7 +20,7 @@
                 <section class="section-1">
                     <br>
                     <div class="logo-div">
-                         <a href="./Nata.NG.html"><h1 class="h1">NATA</h1></a>
+                         <a href="#"><h1 class="h1">NATA</h1></a>
                     </div>
                     <br>
                                         
@@ -30,7 +29,7 @@
                     <br>
                     
                     <ul>
-                        <li class="li-home"> <a class="a-home" href=""> <img class="home" src="./../images/home.svg" alt="home"> Dashboard </a> 
+                        <li class="li-home"> <a class="a-home" href="./dashboard.html"> <img class="home" src="./../images/home.svg" alt="home"> Dashboard </a> 
                           
                         </li> 
                         <br>
@@ -67,7 +66,7 @@
                         <hr class="side-bar-divider">
                         <br> <br>
 
-                        <li class=""> <a href="./epin.html"> <img class="gift" src="./../images/gift (1).svg" alt="gift"> EPIN <div class="new-span">New</div> </a></li> 
+                        <li class=""> <a href=""> <img class="gift" src="./../images/gift (1).svg" alt="gift"> EPIN <div class="new-span">New</div> </a></li> 
                         <br>
                         <hr class="side-bar-divider">
                         <br>
@@ -82,9 +81,9 @@
                                 
                                 <h6 class="h6-sub">SELECT FUND METHOD:</h6>
                                 <br>
-                                <a class="a-air" href="">Instantly</a>
+                                <a class="a-air" href="../pages/IAF.html">Instantly</a>
                                 <br><br>
-                                <a class="a-dat" href="">Manually</a>              
+                                <a class="a-dat" href="../pages/MF.html">Manually</a>              
                                 
                             </div>
 
@@ -93,14 +92,14 @@
                         <hr class="side-bar-divider">
                         <br><br>
 
-                        <li class=""> <a href=""> <img class="transaction" src="./../images/receipt.svg" alt="transaction"> Transactions </a></li>
+                        <li class=""> <a href="../pages/transaction.html"> <img class="transaction" src="./../images/receipt.svg" alt="transaction"> Transactions </a></li>
                         <br>
                         <hr class="side-bar-divider">
                         <br>
 
                         <h2 class="finances-h2">TOOLS</h2>
                         <br>
-                        <li class=""> <a href=""> <img class="clock" src="./../images/clock-three.svg" alt="clock"> Schedule </a></li>
+                        <li class=""> <a href="./schedule.html"> <img class="clock" src="./../images/clock-three.svg" alt="clock"> Schedule </a></li>
                         <br>
                         <hr class="side-bar-divider-clock">
                         <br>
@@ -115,7 +114,7 @@
 
             </div>
             <section class="section-2">
-                <nav style="height: 9.5vh">
+                <nav>
                     <hr class="side-bar-divider"> <br>  <a href="./signin.html"><img id="avatar" class="avatar" src="./../images/avatar-2009.jpg" alt="avatar"></a>
                 </nav>
                 <br>
@@ -138,41 +137,22 @@
                 </div>
                 
                 <div class="main-div">
-                    <div class="container">
-
-                        <h6 style="margin-left: 0%">WAEC & NECO RESULT CHECKER PIN <span class="badge">New</span></h6>
-                        <p style="margin-left: 0%" class="p-div" > Your current balance is <b style="color: black">₦1,370</b> </p>
-                       
-                        <select class="select-2" name="cars" id="cars">
-                            <option value="volvo">Select a type</option>
-                            <option value="saab">Prepaid</option>
-                            <option value="saab">Postpaid</option>
-                            
-                        </select>
-
-                        <form method="post" action="" class="post">
-                            <div class="amount ">
-                                <input type="number" class="form"  name="amount" placeholder="N100" required="">
-                
-                            </div>
-                
-                
-                
-                            <div class="actions">
-                                <input class="btn" type="submit" value="Create">
-                            </div>
-                        </form>
-                        <hr class="hr">
-                        <br>
-                        <h5></h5>
-                        <div style="margin-left: 0%" class="alert-info" role="alert">
-                            After you purchase, the PIN & SERIAL NUMBER will be displayed here and also sent to your email address
-                        
+                    <p style="color: rgb(135, 135, 138); ; font-size: 25px; font-weight:light;padding-left: 30px;">Dashboard</p>
+                    <div class="mother">
+                        <div class="child">
+                            <div class="div1"><p class="p1"> <span class="balance"> Balance</span>
+                                <span class="span">  <img src="../images/download.png" alt="" class="img1"></span>
+                                <br>₦ 370</p></div>
+                        </div>
+                        <div class="child2">
+                            <div class="div2"> <p class="p1"> <span class="balance"> Scheduled Task Balance</span>
+                             <span class="span">  <img src="./../images/images.jfif" alt="" class="img1"></span> 
+                                <br>₦ 0</p></div>
                         </div>
                     </div>
                 </div>
                 
-                <footer style="margin-top: 12%">
+                <footer>
                     
                     <p class="footer-p">Copyright &copy; Natasco Technology 2022 | <a class="a-become" href="./Agent.html"> Become an Agent</a> | <a class="a-contact" href="#">Contact us</a> </p>
                     <!-- <hr class="side-bar-divider-straigh"> -->
@@ -182,7 +162,7 @@
             </section>
         </main> 
 
-        <script src="./../scripts/waec.js"></script>
+        <script src="./../scripts/dashboard.js"></script>
        
     </body>
 </html>

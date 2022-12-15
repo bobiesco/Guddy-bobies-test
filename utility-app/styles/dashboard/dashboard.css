@@ -252,7 +252,7 @@ body main .section-2 nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  height: 9.5vh;
+  height: 11.3vh;
   background-color: white;
   box-shadow: 10px 2px 20px 4px rgb(225, 221, 221);
 }
@@ -281,6 +281,7 @@ body main .section-2 .holla-collapse {
   display: none;
   position: absolute;
   right: 20px;
+  z-index: 1;
 }
 body main .section-2 .holla-collapse .hey-collapse {
   color: black;
@@ -320,76 +321,107 @@ body main .section-2 .holla-collapse .hey-collapse .a-logout .logout {
   margin-top: 2%;
 }
 body main .section-2 .main-div {
-  font-family: nunitoRegular;
-  color: rgb(135, 135, 138);
-  margin-left: 2% !important;
-  font-size: 105%;
+  height: 400px;
+  font-family: nunitoSemiBold;
 }
-body main .section-2 .main-div .container h6 {
-  font-size: 105%;
-  margin-top: 8px;
+body main .section-2 .main-div .mother {
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 34px;
 }
-body main .section-2 .main-div .container h6 .badge {
+body main .section-2 .main-div .mother .child {
+  background-color: blue;
+  border: 1px solid blue;
+  width: 500px;
+  height: 100px;
   border-radius: 5px;
-  background-color: rgb(38, 38, 238);
-  color: white;
+  box-shadow: 1px;
+  box-shadow: 1px 3px 20px 5px rgb(161, 153, 153);
 }
-body main .section-2 .main-div .container .select-2 {
-  font-family: nunitoRegular;
-  color: rgb(135, 135, 138);
-  font-size: 105%;
-  border: 1px solid rgb(175, 175, 179);
+body main .section-2 .main-div .mother .child .div1 {
+  position: absolute;
+  background-color: white;
+  width: 499px;
+  margin-left: 3px;
+  margin-bottom: 19px;
+  border: 1px solid white;
+  height: 100px;
+  top: 157px;
   border-radius: 5px;
-  width: 98%;
-  height: 37px;
 }
-body main .section-2 .main-div .container .select-2:focus {
-  outline: 3px solid rgb(174, 201, 223);
+body main .section-2 .main-div .mother .child .div1 .balance {
+  font-size: 15px;
+  color: blue;
+  background-color: white;
 }
-body main .section-2 .main-div .container .post .amount .form {
-  font-family: nunitoRegular;
-  color: rgb(135, 135, 138);
-  font-size: 105%;
-  border: 1px solid rgb(175, 175, 179);
+body main .section-2 .main-div .mother .child .div1 .p1 {
+  background-color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+body main .section-2 .main-div .mother .child .div1 .p1 .span {
+  padding-left: 360px;
+  background-color: white;
+}
+body main .section-2 .main-div .mother .child .div1 .p1 .span .img1 {
+  width: 35px;
+  height: 35px;
+  background-color: #eceaea;
+  opacity: 0.5;
+  position: absolute;
+  top: 35px;
+}
+body main .section-2 .main-div .mother .child2 {
+  background-color: rgb(33, 192, 33);
+  border: 1px solid rgb(33, 192, 33);
+  width: 500px;
+  height: 100px;
   border-radius: 5px;
-  margin-left: 0%;
-  width: 98%;
-  height: 37px;
+  box-shadow: 1px;
+  box-shadow: 1px 3px 20px 5px rgb(161, 153, 153);
 }
-body main .section-2 .main-div .container .post .amount .form:focus {
-  outline: 3px solid rgb(174, 201, 223);
-}
-body main .section-2 .main-div .container .post .actions .btn {
-  border: 1px solid rgb(38, 38, 238);
+body main .section-2 .main-div .mother .child2 .div2 {
+  position: absolute;
+  background-color: white;
+  width: 499px;
+  margin-left: 3px;
+  margin-bottom: 19px;
+  border: 1px solid white;
+  height: 100px;
+  top: 157px;
   border-radius: 5px;
-  background-color: rgb(38, 38, 238);
-  color: white;
-  width: 5.5%;
-  height: 40px;
-  margin-left: 0%;
-  font-family: nunitoRegular;
+  display: flex;
+  align-content: center;
 }
-body main .section-2 .main-div .container .post .actions .hr {
-  border-top: gray;
+body main .section-2 .main-div .mother .child2 .div2 .balance {
+  font-size: 15px;
+  color: rgb(33, 192, 33);
+  background-color: white;
 }
-body main .section-2 .main-div .container .post .actions .btn:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: rgba(38, 38, 238, 0.733);
-  border-color: rgba(38, 38, 238, 0.158);
+body main .section-2 .main-div .mother .child2 .div2 .p1 {
+  background-color: white;
+  padding-left: 20px;
+  padding-top: 20px;
 }
-body main .section-2 .main-div .alert-info {
-  border: 1px solid rgb(100, 255, 203);
-  background-color: rgb(100, 255, 203);
-  color: black;
-  padding: 5px 5px;
-  width: 1000px;
-  margin-left: -10%;
-  border-radius: 4px;
+body main .section-2 .main-div .mother .child2 .div2 .p1 .span {
+  padding-left: 250px;
+  background-color: white;
+}
+body main .section-2 .main-div .mother .child2 .div2 .p1 .span .img1 {
+  width: 35px;
+  height: 35px;
+  background-color: #eceaea;
+  opacity: 0.5;
+  position: absolute;
+  top: 35px;
 }
 body main .section-2 footer {
   background-color: white;
   padding: 2% 0;
-  margin-top: 800%;
+  margin-top: 6%;
 }
 body main .section-2 footer .footer-p {
   font-family: nunitoSemiBold;
@@ -420,4 +452,4 @@ body .hide2 {
 }
 body .hide3 {
   display: block !important;
-}/*# sourceMappingURL=waec.css.map */
+}/*# sourceMappingURL=dashboard.css.map */

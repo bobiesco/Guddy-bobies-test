@@ -520,13 +520,13 @@ body {
                         .btn {
                         
                             border: 1px solid rgb(38, 38, 238);
-                            border-radius: 5px;
-                            background-color: rgb(38, 38, 238);
                             color: white;
                             width: 5.5%;
                             height: 40px;
                             margin: 30px 15px;
                             font-family: nunitoRegular;
+                            background-color: rgba(38, 38, 238, 0.733);
+                            border-color: rgba(38, 38, 238, 0.158);
                         }
 
                         .hr{
@@ -534,8 +534,9 @@ body {
                         }
                         .btn:hover{
                             transition: all 0.3s ease-in-out ;
-                            background-color: rgba(38, 38, 238, 0.733);
-                            border-color: rgba(38, 38, 238, 0.158);
+                            border-radius: 5px;
+                            background-color: rgb(38, 38, 238);
+                           
                         }
                 
                     }
