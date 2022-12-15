@@ -363,8 +363,9 @@ body main .section-2 .main-div .btn-verify {
   border-radius: 5px;
   font-size: 105%;
   height: 37px;
-  width: 12%;
+  width: 6%;
   cursor: pointer;
+  color: white;
 }
 body main .section-2 .main-div .btn-verify:hover {
   background-color: #2b5df2;
