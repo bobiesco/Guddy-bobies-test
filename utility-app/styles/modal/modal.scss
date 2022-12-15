@@ -511,7 +511,7 @@ body {
                 .main-div {
                     font-family: nunitoRegular;
                     font-size: 1.5rem;
-                    
+                    color: $lightText;
                     
                     
     
@@ -522,6 +522,8 @@ body {
                         width: 400px;
                         height: 277px;
                         background-color: white;
+                        border-radius: 5px;
+                        box-shadow: 80px, 80px, 80px,;
     
                         .modal-header {
     
