@@ -1,0 +1,647 @@
+$bodyBgColor:  rgb(55, 55, 61);
+$startBtnHoverBgColor:   rgb(43, 43, 46);
+$pureWhiteColor: white;
+$boxShadowColor: 1px 1px 10px 4px rgb(167, 188, 244);
+$pureRed: red;
+$pureBlack: black;
+$inputBorder: rgb(175, 175, 179);
+$blueText: #4e73df;
+$blueTextDark: #2b5df2;
+$lightText: rgb(135, 135, 138);
+$inputOutline: 3px solid rgb(210, 206, 206);
+$inputBorderOutlineMain: rgb(174, 201, 223);
+$wrapperBgColor: #4e73df;
+$newSpanBgColor:rgb(102, 129, 236);
+
+@font-face {
+    font-family: nunitoSemiBold;
+    src: url(./../../fonts/NunitoSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: nunitoBold;
+    src: url(./../../fonts/NunitoSans-Bold.ttf);
+}  
+
+@font-face {
+    font-family: nunitoExtraBold;
+    src: url(./../../fonts/NunitoSans-ExtraBold.ttf);
+}    
+
+@font-face {
+    font-family: nunitoRegular;
+    src: url(./../../fonts/NunitoSans-Regular.ttf);
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    // border: 1px solid rgb(192, 28, 28);
+    box-sizing: border-box;
+    // background-color: rgb(55, 0, 255);
+   
+
+    main {
+        display: flex;
+        justify-content: flex-end;
+        // border: 1px solid green;
+        min-height: 100vh;
+      
+        
+        .wrapper{
+            // background-color: #4e73df;
+            background-color: $wrapperBgColor;
+            width: 17%;
+            height: 100%;
+            // border: 1px solid red;
+            
+
+
+            .section-1{
+                // text-align: center;
+                align-items: center;
+                a{
+                    text-decoration: none;
+                    color: rgb(218, 213, 213);
+                    font-size: 80%;
+                    
+
+                    &:hover {
+                        color: $pureWhiteColor;
+                        
+                    }
+                }
+
+                .a-home {
+                    color: $pureWhiteColor;
+                    font-family: nunitoBold;
+
+                    &:hover {
+                        color: $pureWhiteColor;
+                    }
+                }
+               
+               
+                
+                .logo-div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    // border: 1px solid black;
+    
+                    .logo{
+                        height: 25%;
+                        width: 15%;
+                        // border: 1px solid black;
+        
+                    }
+        
+                    .h1{
+                        font-family: nunitoExtraBold;
+                        font-size: 120%;        
+                        color: white;
+                    }
+
+                   
+                    
+                }
+                .side-bar-divider{
+                    width: 90%;
+                    height: 0%;
+                    // margin-left: 10%;
+                    // border-top: 1px solid rgb(191, 44, 44);
+                    // margin-bottom: 4%;
+                    border: 1px solid rgba(224, 215, 215, 0.183);
+                    margin: 0 auto;
+                    
+
+                }
+
+                ul{
+                    
+                    li{
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        // border: 1px solid red;
+                        color: rgb(229, 224, 224);
+                        margin-left: 5%;
+                        font-family: nunitoSemiBold;
+                        
+                        // text-align: center;
+                        
+
+                        .home {
+                            height: 100%;
+                            width: 10%; 
+                            // margin-right: 3%;
+                            color: white;
+                            margin-bottom: -1.5%;
+                            
+                           
+                        }
+
+                        .cart {
+                            height: 100%;
+                            width: 8%; 
+                            margin-right: 2%;
+                            margin-bottom: -1.5%;
+
+                            
+                            
+                            
+                        }
+
+                       
+
+                        .great1 {
+                            height: 10px;
+                            width: 10px;
+                            margin-left: 53%;
+                        }
+
+                        .great2 {
+                            height: 10px;
+                            width: 10px;
+                            margin-left: 45%;
+                        }
+
+                        .gift {
+                            height: 100%;
+                            width: 7%; 
+                            margin-right: 3%;
+                            margin-bottom: -1.5%;
+
+                            
+                        }
+                        .new-span {
+                            display: inline;
+                            width: 100%;
+                            height: 500%;
+                            color: white;
+                            font-family: nunitoSemiBold;
+                            background-color: $newSpanBgColor;
+                            border: 1px solid $newSpanBgColor;
+                            border-radius: 5px;
+                            padding: 3px 5px 3px 5px;
+                        }
+
+                        
+
+                        .dollar {
+                            height: 100%;
+                            width: 8%; 
+                            margin-right: 2%;
+                            margin-bottom: -1.5%;
+                        }
+
+                       
+
+                        .transaction {
+                            height: 100%;
+                            width: 8%; 
+                            margin-right: 2%;
+                            margin-bottom: -1.5%;
+                        }
+
+                        .clock {
+                            height: 100%;
+                            width: 9%; 
+                            margin-right: 2%;
+                            margin-bottom: -1.5%;
+
+                            
+
+                        }
+
+
+                    }
+
+                    .fund-collapse{
+                        border: 1px solid $pureWhiteColor;
+                        border-radius: 8px;
+                        background-color: $pureWhiteColor;
+                        width: 90%;
+                        height: 45%;
+                        margin: 0% auto;
+                        display: none;
+                       
+                        .pay-collapse{  
+                            color: black;
+                            font-family: nunitoRegular;
+                            // margin-left: 10%;
+                            padding: 2px 10px 2px 10px;
+                            margin: 4% auto;
+                            border-radius: 8px;
+                            // border: 1px solid black;
+        
+        
+                            .h6-sub{
+                                margin-left: 5%;
+                                font-family: nunitoExtraBold;
+                                color: rgba(128, 128, 128, 0.598);
+                            }
+        
+                            a{
+                                color: rgb(42, 41, 41);
+                                padding: 7px 55px 8px 10px;
+                                
+                                // padding: 2px 2px;
+                                // margin: 0 auto;
+        
+                                &:hover {
+                                    background-color: rgb(234, 228, 228);
+                                    border-radius: 8px;
+                                    // border: 1px solid black; 
+                                    // height: 20%;
+                                    // width: 50%; 
+                                }
+                            }
+                            .a-air{
+                                padding: 7px 130px 8px 10px;
+                            }
+                            .a-dat{
+                                padding: 7px 127px 8px 10px;
+                            }
+                           
+    
+                                   
+                        }
+                    }
+
+                    .side-bar-divider-clock{
+                        width: 90%;
+                        height: 0%;
+                        // margin-left: 10%;
+                        // border-top: 1px solid rgb(191, 44, 44);
+                        // margin-bottom: 4%;
+                        border: 1px solid rgba(224, 215, 215, 0.183);
+                        margin: 0 auto;
+                        margin-bottom: 82%;
+                        
+    
+                    }
+
+                    .finance {
+                        font-size: 100%;
+                        // color: white;
+                        text-align: start;
+
+                    }
+                    .finances-h2 {
+                        font-family: nunitoExtraBold;
+                        color: rgba(225, 221, 221, 0.45);
+                        // border: 1px solid red;
+                        text-align: left;
+                        margin-left: 5%;
+                        font-size: 65%;
+                    }
+                }
+
+
+                .purchase-collapse{
+                    border: 1px solid $pureWhiteColor;
+                    border-radius: 8px;
+                    background-color: $pureWhiteColor;
+                    width: 90%;
+                    height: 45%;
+                    margin: 0% auto;
+                    display: none;
+                   
+                    .subscribe-collapse{  
+                        color: black;
+                        font-family: nunitoRegular;
+                        // margin-left: 10%;
+                        padding: 2px 10px 2px 10px;
+                        margin: 4% auto;
+                        border-radius: 8px;
+                        // border: 1px solid black;
+    
+    
+                        .h6-sub{
+                            margin-left: 5%;
+                            font-family: nunitoExtraBold;
+                            color: rgba(128, 128, 128, 0.598);
+                        }
+    
+                        a{
+                            color: rgb(42, 41, 41);
+                            padding: 7px 55px 8px 10px;
+                            
+                            // padding: 2px 2px;
+                            // margin: 0 auto;
+    
+                            &:hover {
+                                background-color: rgb(234, 228, 228);
+                                border-radius: 8px;
+                                // border: 1px solid black; 
+                                // height: 20%;
+                                // width: 50%; 
+                            }
+                        }
+                        .a-air{
+                            padding: 7px 130px 8px 10px;
+                        }
+                        .a-dat{
+                            padding: 7px 145px 8px 10px;
+                        }
+                        .a-cab{
+                            padding: 7px 64px 8px 10px;
+                        }.a-ele{
+                            padding: 7px 117px 8px 10px;
+                        }
+                        .a-wae{
+                            padding: 7px 82px 8px 10px;
+                        }
+                        .a-fun{
+                            padding: 7px 17px 8px 10px;
+
+                            .new-fund-span {
+                                background-color: $newSpanBgColor;
+                            border: 1px solid $newSpanBgColor;
+                            border-radius: 5px;
+                            padding: 1px 3px 1px 3px;
+                                // background-color: blue;
+                                // border-radius: 2px;
+                                color: white;
+                            }
+                        }
+    
+                    }
+                }
+                
+            }
+
+            
+
+        }
+
+        .section-2 {
+            // border: 1px solid rgb(179, 239, 12);
+            width: 83%;
+            // border: 1px solid black;
+            background-color: rgb(251, 251, 247);
+
+            nav {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                height: 9.5vh;
+                background-color: $pureWhiteColor;
+                // border: 1px solid rgb(225, 11, 11);
+                box-shadow: 10px 2px 20px 4px rgb(225, 221, 221);
+
+
+                .side-bar-divider{
+                    width: 3%;
+                    height: 1%;
+                    // margin-top:2%;
+                    // border-top: 1px solid rgb(191, 44, 44);
+                    // margin-bottom: 4%;
+                    border: 1px solid rgba(183, 173, 173, 0.183);
+                    // border: 1px solid black;
+                    margin-right: 2%;
+                    transform: rotate(90deg);
+                    
+
+                }
+
+                .avatar{
+                    border-radius: 100%;
+                    // border: 10px solid red;
+                    height: 50%;
+                    width: 70%;
+                    margin-left: -20%;
+                    border: 1px solid rgb(133, 131, 131);
+                    
+                }
+            }
+
+            .holla-collapse{
+                border: 1px solid $pureWhiteColor;
+                border-radius: 8px;
+                background-color: $pureWhiteColor;
+                width: 10%;
+                height: 22%;
+                margin: 0% auto;
+                box-shadow: 0px 1px 10px 4px rgb(201, 198, 198);
+                display: none;
+                position: absolute;
+                right: 20px;
+               
+                .hey-collapse{  
+                    color: black;
+                    font-family: nunitoRegular;
+                    // margin-left: 10%;
+                    padding: 2px 10px 2px 10px;
+                    margin: 4% auto;
+                    border-radius: 8px;
+                    // border: 1px solid black;
+                   
+                    
+
+
+                    .h6-sub{
+                        margin-left: 5%;
+                        font-family: nunitoExtraBold;
+                        color: rgba(128, 128, 128, 0.598);
+                    }
+
+                    a{
+                        color: rgb(42, 41, 41);
+                        padding: 7px 55px 8px 10px;
+                        
+                        // padding: 2px 2px;
+                        // margin: 0 auto;
+
+                        &:hover {
+                            background-color: rgb(234, 228, 228);
+                            border-radius: 8px;
+                            // border: 1px solid black; 
+                            // height: 20%;
+                            // width: 50%; 
+                        }
+                    }
+                    .a-male{
+                        padding: 7px 35px 8px 10px;
+                        text-decoration: none;
+                        
+
+                        .male {
+                            height: 10%;
+                            width: 15%;
+                        }
+                    }
+                    .a-logout{
+                        padding: 7px 32px 8px 10px;
+                        text-decoration: none;
+
+                        .logout {
+                            height: 10%;
+                            width: 15%;
+                            margin-top: 2%;
+                            
+                        }
+                    }
+
+                }
+            }
+
+            .main-div {
+                font-family: nunitoSemiBold;
+                color: $lightText;
+                margin-left: 2%;
+                // background-color: rgb(206, 206, 206);
+
+                .p-div {
+                    font-family: nunitoSemiBold;
+                    color: $lightText;
+
+                }
+
+                .select-1 {
+                    font-family: nunitoRegular;
+                    color: $lightText;
+                    font-size: 105%;
+                    border: 1px solid $inputBorder;
+                    border-radius: 5px;
+                    width: 98%;
+                    height: 37px;
+             
+
+                    &:hover {
+                        outline: 3px solid $inputBorderOutlineMain;
+                    }
+                    &:focus {
+                        outline: 3px solid $inputBorderOutlineMain;
+                    }
+
+                }
+
+               
+
+                .first-input {
+                    font-family: nunitoRegular;
+                    color: $lightText;
+                    font-size: 105%;
+                    border: 1px solid $inputBorder;
+                    border-radius: 5px;
+                    width: 98%;
+                    height: 37px;
+                    padding: 0 5px;
+             
+
+                    // &:hover {
+                    //     outline: 3px solid $inputBorderOutlineMain;
+                    // }
+                    &:focus {
+                        outline: 3px solid $inputBorderOutlineMain;
+                    }
+
+                }
+
+                .btn-verify {
+                    font-family: nunitoRegular;
+                    color: $pureWhiteColor;
+                    background-color: $blueText;
+                    border-radius: 5px;
+                    font-size: 105%;
+                    // border: 1px solid blue;
+                    height: 37px;
+                    width: 12%;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: $blueTextDark;
+                    }
+
+                }
+
+                .side-bar-divider{
+                    width: 97.8%;
+                    height: 0%;
+                    // margin-left: 10%;
+                    // border-top: 1px solid rgb(191, 44, 44);
+                    // margin-bottom: 4%;
+                    border: 1px solid rgba(224, 215, 215, 0.628);
+                    // margin: 0 auto;
+                    
+                }
+                
+            }
+
+            footer{
+                // border: 1px solid red;
+                background-color: $pureWhiteColor;
+                // margin: 200px 0;
+                padding: 2% 0;
+                margin-top: 5%;
+
+                .footer-p {
+                    font-family: nunitoSemiBold;
+                    color: $lightText;
+                    text-align: center;
+                    font-size: 80%;
+
+                    .a-become {
+                        text-decoration: none;
+                        color: $blueText;
+                    }
+                    .a-contact{
+                        text-decoration: none;
+                        color: $blueText;
+                    }
+                    // border: 1px solid black;
+
+                    // .hr-line {
+                    //     margin-bottom: 20000%;
+                    // }
+
+                    .side-bar-divider-straight{
+                        width: 90%;
+                        height: 0%;
+                        // margin-left: 10%;
+                        // border-top: 1px solid rgb(191, 44, 44);
+                        // margin-bottom: 4%;
+                        border: 100px solid rgba(224, 215, 215, 0.183);
+                        margin: 0 auto;
+                        // transform: rotate(90deg);
+                        border-top: 1px;
+                        
+                    }
+                    
+                }
+
+                // hr{
+                //     border-top: 1px solid black;
+                // }
+
+               
+            }
+        }
+
+        
+    
+
+    }
+
+    .hide{
+        display: block !important;
+    }
+
+    .hide2{
+        display: block !important;
+    }
+
+    .hide3 {
+        display: block !important;
+    }
+
+   
+}
+ 
