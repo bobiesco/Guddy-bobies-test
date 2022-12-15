@@ -282,7 +282,7 @@ body {
                         // margin-bottom: 4%;
                         border: 1px solid rgba(224, 215, 215, 0.183);
                         margin: 0 auto;
-                        margin-bottom: 36%;
+                        margin-bottom: 190%;
                         
     
                     }
@@ -613,6 +613,26 @@ body {
                     &:hover {
                         background-color: $blueTextDark;
                     }
+                }
+
+                .text-area {
+                    font-family: nunitoRegular;
+                    color: $lightText;
+                    font-size: 105%;
+                    border: 1px solid $inputBorder;
+                    border-radius: 5px;
+                    width: 98%;
+                    height: 60px;
+                    padding: 3px 5px;
+             
+
+                    // &:hover {
+                    //     outline: 3px solid $inputBorderOutlineMain;
+                    // }
+                    &:focus {
+                        outline: 3px solid $inputBorderOutlineMain;
+                    }
+
                 }
 
                 .side-bar-divider{

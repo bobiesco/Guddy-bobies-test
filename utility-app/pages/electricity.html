@@ -138,35 +138,46 @@
                 <div class="main-div">
                     <p class="p-div"> Your current balance is <b>N1,370</b> </p>
                     <br>
-
+                    <p>Disco</p> 
                     <select class="select-1" name="provider" id="provider" >
-                        <option value="select">Select a TV Provider</option>
-                        <option value="gotv">GoTv</option>
-                        <option value="dstv">DSTV</option>
-                        <option value="startimes">Startimes</option>
+                        <option value="select">Select a Company(DISCO)</option>
+                        <option value="gotv">Port Harcourt Electric - EKEDC (PHCN)</option>
+                        <option value="dstv">Ikeja Electric - IKEDC (PHCN)</option>
+                        <option value="dstv">Abuja Electric - AEDC (PHCN)</option>
+                        <option value="dstv">Kano Electric - KEDC (PHCN)</option>
+                        <option value="dstv">Eko Electric - PHEDC (PHCN)</option>
+                        <option value="dstv">Jos Electric - JEDC (PHCN)</option>
+                        <option value="dstv">Ibadan Electric - IBEDC (PHCN)</option>
+                        <option value="dstv">Kaduna Electric - KAEDC (PHCN)</option>
+                        <option value="dstv">Enugu Electric - EEDC (PHCN)</option>
+                        
                     </select>
                     <br><br>
+                    <p>Type</p>
                     <select class="select-2" name="cars" id="cars">
-                        <option value="volvo">Select GoTv Bundle</option>
-                        <option value="saab">GoTv Max - N4150</option>
-                        <option value="saab">GoTv Jolli Bouque - N2800</option>
-                        <option value="saab">GoTv Jinja Bouque - N1950</option>
-                        <option value="saab">GoTv Jinja Supa - N5500</option>
-                        <option value="saab">GoTv Smallie(Monthly) - N900</option>
-                        <option value="saab">GoTv Smallie(Monthly) - N2400</option>
-                        <option value="saab">GoTv Smallie(Yearly) - N7000</option>
+                        <option value="volvo">Select a type</option>
+                        <option value="saab">Prepaid</option>
+                        <option value="saab">Postpaid</option>
+                        
                     </select>
                     <br><br>
 
-                    
+                    <p>Amount</p>
                     <form action="">
                         <label class="label" for="icu"></label>
-                        <input class="first-input" type="text" id="icu" name="icu" value="" placeholder="ICU">
+                        <input class="first-input" type="number" id="icu" name="icu" value="" placeholder="min of N1000" required>
+                        <p>You will pay additional charge of N100! </p>
+                        <br>
+                        <p>Meter Number</p>
+                        <label class="label" for="icu"></label>
+                        <input class="first-input" type="number" id="icu" name="icu" value="" placeholder="meter" required>
+                        
                     </form>
+                    
 
                     <br>
 
-                    <button class="btn-verify"> Verify </button>
+                    <button type="submit" class="btn-verify"> Verify </button>
                     <br><br>
 
                     <form action="">
@@ -174,7 +185,18 @@
                         <input class="second-input" type="text" id="first_name" name="first" value="" placeholder="Name will appear here" readonly>
                     </form>
                     <br>
+                    <form action="">
+                       
+                        <p>Phone</p>
+                        <label class="label" for="icu"></label>
+                        <input class="first-input" type="number" id="icu" name="icu" value="" placeholder="Recipient's Phone Number" required>
+                        
+                    </form>
 
+                    <br>
+                    <p>Extra</p> 
+                    <textarea class="text-area" name="" id="" cols="145" rows="5" placeholder="Home Address"></textarea>
+                    <br> <br>
                     <button class="btn-proceed"> Proceed </button>
                     <br><br>
                     <hr class="side-bar-divider">

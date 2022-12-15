@@ -177,7 +177,7 @@ body main .wrapper .section-1 ul .side-bar-divider-clock {
   height: 0%;
   border: 1px solid rgba(224, 215, 215, 0.183);
   margin: 0 auto;
-  margin-bottom: 36%;
+  margin-bottom: 190%;
 }
 body main .wrapper .section-1 ul .finance {
   font-size: 100%;
@@ -410,6 +410,19 @@ body main .section-2 .main-div .btn-proceed {
 }
 body main .section-2 .main-div .btn-proceed:hover {
   background-color: #2b5df2;
+}
+body main .section-2 .main-div .text-area {
+  font-family: nunitoRegular;
+  color: rgb(135, 135, 138);
+  font-size: 105%;
+  border: 1px solid rgb(175, 175, 179);
+  border-radius: 5px;
+  width: 98%;
+  height: 60px;
+  padding: 3px 5px;
+}
+body main .section-2 .main-div .text-area:focus {
+  outline: 3px solid rgb(174, 201, 223);
 }
 body main .section-2 .main-div .side-bar-divider {
   width: 97.8%;
