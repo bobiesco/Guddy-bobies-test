@@ -523,6 +523,7 @@ body {
                         height: 277px;
                         background-color: white;
                         border-radius: 5px;
+                        color: $lightText;
                         box-shadow: 80px, 80px, 80px,;
     
                         .modal-header {
@@ -531,6 +532,7 @@ body {
                             padding: 0px 20px;
                             justify-content: space-between;
                             margin: 30px 10px;
+                            color: $lightText;
                         }
     
                         .close {
@@ -539,6 +541,7 @@ body {
                             font-size: 1.7rem;
                             cursor: pointer;
                             font-family: nunitoRegular;
+                            color: $lightText;
                         }
     
                         .modal-body {
@@ -551,7 +554,7 @@ body {
                         .cancel {
                             border: 1px solid gray;
                             background-color: gray;
-                            color: white;
+                            color: $lightText;
                             font-family: nunitoRegular;
                             border-radius: 5px;
                             font-size: 1.4rem;
@@ -565,7 +568,7 @@ body {
                         .logout {
                             border: 1px solid blue;
                             background-color: blue;
-                            color: white;
+                            color: $lightText;
                             text-decoration: none;
                             border-radius: 5px;
                             height: 40px;
