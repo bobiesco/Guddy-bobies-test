@@ -252,7 +252,7 @@ body main .section-2 nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  height: 11.3vh;
+  height: 9.5vh;
   background-color: white;
   box-shadow: 10px 2px 20px 4px rgb(225, 221, 221);
 }
@@ -349,7 +349,7 @@ body main .section-2 .main-div .mother .child .div1 {
   margin-bottom: 19px;
   border: 1px solid white;
   height: 100px;
-  top: 157px;
+  top: 145px;
   border-radius: 5px;
 }
 body main .section-2 .main-div .mother .child .div1 .balance {
@@ -391,7 +391,7 @@ body main .section-2 .main-div .mother .child2 .div2 {
   margin-bottom: 19px;
   border: 1px solid white;
   height: 100px;
-  top: 157px;
+  top: 145px;
   border-radius: 5px;
   display: flex;
   align-content: center;
