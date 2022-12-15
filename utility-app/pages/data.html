@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./../styles/cable/cable.css">
+        <link rel="stylesheet" href="./../styles/data/data.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
@@ -139,45 +139,47 @@
                     <p class="p-div"> Your current balance is <b>N1,370</b> </p>
                     <br>
 
-                    <select class="select-1" name="provider" id="provider" >
-                        <option value="select">Select a TV Provider</option>
-                        <option value="gotv">GoTv</option>
-                        <option value="dstv">DSTV</option>
-                        <option value="startimes">Startimes</option>
-                    </select>
-                    <br><br>
-                    <select class="select-2" name="cars" id="cars">
-                        <option value="volvo">Select GoTv Bundle</option>
-                        <option value="saab">GoTv Max - N4150</option>
-                        <option value="saab">GoTv Jolli Bouque - N2800</option>
-                        <option value="saab">GoTv Jinja Bouque - N1950</option>
-                        <option value="saab">GoTv Jinja Supa - N5500</option>
-                        <option value="saab">GoTv Smallie(Monthly) - N900</option>
-                        <option value="saab">GoTv Smallie(Monthly) - N2400</option>
-                        <option value="saab">GoTv Smallie(Yearly) - N7000</option>
+                    <select class="select-1" name="provider" id="provider" required>
+                        <option value="select">Select Network</option>
+                        <option value="gotv">MTN</option>
+                        <option value="dstv">GLO</option>
+                        <option value="startimes">AIRTEL</option>
+                        <option value="startimes">9MOBILE</option>
                     </select>
                     <br><br>
 
-                    
-                    <form action="">
-                        <label class="label" for="icu"></label>
-                        <input class="first-input" type="text" id="icu" name="icu" value="" placeholder="ICU">
-                    </form>
-
-                    <br>
-
-                    <button class="btn-verify"> Verify </button>
+                    <select class="select-1" name="provider" id="provider" required>
+                        <option value="select">Select Data Bundle</option>
+                        <option value="gotv">500MB(N140) - 30 Days</option>
+                        <option value="dstv">1GB(N260) - 30 Days</option>
+                        <option value="startimes">2GB(N500) - 30 Days</option>
+                        <option value="startimes">3GB(N750) - 30 Days</option>
+                        <option value="startimes">5GB(N1250) - 30 Days</option>
+                        <option value="startimes">10GB(N2500) - 30 Days</option>
+                    </select>
                     <br><br>
 
                     <form action="">
-                        <label class="label" for=""></label>
-                        <input class="second-input" type="text" id="first_name" name="first" value="" placeholder="Name will appear here" readonly>
+                        <label class="label" for="icu"></label>
+                        <input class="first-input" type="number" id="icu" name="icu" value="" placeholder="Recipient's Phone Number" required>
                     </form>
                     <br>
 
-                    <button class="btn-proceed"> Proceed </button>
-                    <br><br>
+                    <button type="submit" class="btn-verify"> Recharge Data </button>
+                    <br><br><br>
+
                     <hr class="side-bar-divider">
+                    <br>
+
+                    <h1>Balance Check: </h1>
+                    <br> 
+                    MTN *461*4# 
+                    <br> <br>
+                    AIRTEL *140#
+                    <br> <br>
+                    GLO *127*0#
+                    <br> <br>
+                    9MOBILE *228#
                     
                     <!-- <p class="p-div"> You will pay an additional charge of N100! Total will be<b>N1,470</b> </p> -->
                 </div>
@@ -192,7 +194,7 @@
             </section>
         </main> 
 
-        <script src="./../scripts/cable.js"></script>
+        <script src="./../scripts/data.js"></script>
        
     </body>
 </html>

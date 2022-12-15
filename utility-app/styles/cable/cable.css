@@ -252,7 +252,7 @@ body main .section-2 nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  height: 11.3vh;
+  height: 9.5vh;
   background-color: white;
   box-shadow: 10px 2px 20px 4px rgb(225, 221, 221);
 }
@@ -379,6 +379,7 @@ body main .section-2 .main-div .btn-verify {
   font-size: 105%;
   height: 37px;
   width: 6%;
+  cursor: pointer;
 }
 body main .section-2 .main-div .btn-verify:hover {
   background-color: #2b5df2;
@@ -405,6 +406,7 @@ body main .section-2 .main-div .btn-proceed {
   font-size: 105%;
   height: 37px;
   width: 8%;
+  cursor: pointer;
 }
 body main .section-2 .main-div .btn-proceed:hover {
   background-color: #2b5df2;
@@ -417,7 +419,7 @@ body main .section-2 .main-div .side-bar-divider {
 body main .section-2 footer {
   background-color: white;
   padding: 2% 0;
-  margin-top: 6%;
+  margin-top: 7.2%;
 }
 body main .section-2 footer .footer-p {
   font-family: nunitoSemiBold;

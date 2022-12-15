@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./../styles/cable/cable.css">
+        <link rel="stylesheet" href="./../styles/airtime/airtime.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
@@ -139,43 +139,35 @@
                     <p class="p-div"> Your current balance is <b>N1,370</b> </p>
                     <br>
 
-                    <select class="select-1" name="provider" id="provider" >
-                        <option value="select">Select a TV Provider</option>
-                        <option value="gotv">GoTv</option>
-                        <option value="dstv">DSTV</option>
-                        <option value="startimes">Startimes</option>
-                    </select>
-                    <br><br>
-                    <select class="select-2" name="cars" id="cars">
-                        <option value="volvo">Select GoTv Bundle</option>
-                        <option value="saab">GoTv Max - N4150</option>
-                        <option value="saab">GoTv Jolli Bouque - N2800</option>
-                        <option value="saab">GoTv Jinja Bouque - N1950</option>
-                        <option value="saab">GoTv Jinja Supa - N5500</option>
-                        <option value="saab">GoTv Smallie(Monthly) - N900</option>
-                        <option value="saab">GoTv Smallie(Monthly) - N2400</option>
-                        <option value="saab">GoTv Smallie(Yearly) - N7000</option>
+                    <select class="select-1" name="provider" id="provider" required>
+                        <option value="select">Select Mobile Network</option>
+                        <option value="gotv">MTN(Airtime)</option>
+                        <option value="dstv">GLO(Airtime)</option>
+                        <option value="startimes">AIRTEL(Airtime)</option>
+                        <option value="startimes">9MOBILE(Airtime)</option>
                     </select>
                     <br><br>
 
+                    <form action="">
+                        <label class="label" for="icu"></label>
+                        <input class="first-input" type="number" id="icu" name="icu" value="" placeholder="080xxxx(11 digits)" required>
+                    </form>
+                    <br>
                     
                     <form action="">
                         <label class="label" for="icu"></label>
-                        <input class="first-input" type="text" id="icu" name="icu" value="" placeholder="ICU">
+                        <input class="first-input" type="text" id="icu" name="icu" value="" placeholder="100" required>
                     </form>
 
                     <br>
 
-                    <button class="btn-verify"> Verify </button>
+                    <button type="submit" class="btn-verify"> Recharge Now </button>
                     <br><br>
 
-                    <form action="">
-                        <label class="label" for=""></label>
-                        <input class="second-input" type="text" id="first_name" name="first" value="" placeholder="Name will appear here" readonly>
-                    </form>
+                    
                     <br>
 
-                    <button class="btn-proceed"> Proceed </button>
+                    
                     <br><br>
                     <hr class="side-bar-divider">
                     
@@ -184,7 +176,7 @@
                 
                 <footer>
                     
-                    <p class="footer-p">Copyright &copy; Natasco Technology 2022 | <a class="a-become" href="./Agent.html"> Become an Agent</a> | <a class="a-contact" href="#">Contact us</a> </p>
+                    <p class="footer-p">Copyright &copy; Natasco Technology 2022 | <a class="a-become" href="#"> Become an Agent</a> | <a class="a-contact" href="#">Contact us</a> </p>
                     <!-- <hr class="side-bar-divider-straigh"> -->
                 </footer>
                 
@@ -192,7 +184,7 @@
             </section>
         </main> 
 
-        <script src="./../scripts/cable.js"></script>
+        <script src="./../scripts/airtime.js"></script>
        
     </body>
 </html>
