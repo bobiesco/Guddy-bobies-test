@@ -252,7 +252,7 @@ body main .section-2 nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  height: 9.5vh;
+  height: 11.3vh;
   background-color: white;
   box-shadow: 10px 2px 20px 4px rgb(225, 221, 221);
 }
@@ -321,14 +321,63 @@ body main .section-2 .holla-collapse .hey-collapse .a-logout .logout {
 }
 body main .section-2 .main-div {
   font-family: nunitoSemiBold;
-  font-size: 200%;
   color: rgb(135, 135, 138);
   margin-left: 2%;
+}
+body main .section-2 .main-div .p-div {
+  font-family: nunitoSemiBold;
+  color: rgb(135, 135, 138);
+}
+body main .section-2 .main-div .select-1 {
+  font-family: nunitoRegular;
+  color: rgb(135, 135, 138);
+  font-size: 105%;
+  border: 1px solid rgb(175, 175, 179);
+  border-radius: 5px;
+  width: 98%;
+  height: 37px;
+}
+body main .section-2 .main-div .select-1:hover {
+  outline: 3px solid rgb(174, 201, 223);
+}
+body main .section-2 .main-div .select-1:focus {
+  outline: 3px solid rgb(174, 201, 223);
+}
+body main .section-2 .main-div .first-input {
+  font-family: nunitoRegular;
+  color: rgb(135, 135, 138);
+  font-size: 105%;
+  border: 1px solid rgb(175, 175, 179);
+  border-radius: 5px;
+  width: 98%;
+  height: 37px;
+  padding: 0 5px;
+}
+body main .section-2 .main-div .first-input:focus {
+  outline: 3px solid rgb(174, 201, 223);
+}
+body main .section-2 .main-div .btn-verify {
+  font-family: nunitoRegular;
+  color: white;
+  background-color: #4e73df;
+  border-radius: 5px;
+  font-size: 105%;
+  height: 37px;
+  width: 12%;
+  cursor: pointer;
+}
+body main .section-2 .main-div .btn-verify:hover {
+  background-color: #2b5df2;
+}
+body main .section-2 .main-div .side-bar-divider {
+  width: 97.8%;
+  height: 0%;
+  border: 1px solid rgba(224, 215, 215, 0.628);
 }
 body main .section-2 footer {
   background-color: white;
   padding: 2% 0;
-  margin-top: 37.5%;
+  margin-top: 11%;
 }
 body main .section-2 footer .footer-p {
   font-family: nunitoSemiBold;
@@ -359,4 +408,4 @@ body .hide2 {
 }
 body .hide3 {
   display: block !important;
-}/*# sourceMappingURL=schedule.css.map */
+}/*# sourceMappingURL=edit.css.map */

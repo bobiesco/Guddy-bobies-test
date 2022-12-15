@@ -282,7 +282,7 @@ body {
                         // margin-bottom: 4%;
                         border: 1px solid rgba(224, 215, 215, 0.183);
                         margin: 0 auto;
-                        margin-bottom: 36%;
+                        margin-bottom: 60%;
                         
     
                     }
@@ -493,7 +493,148 @@ body {
             }
 
             .main-div {
-                 
+                font-family: nunitoSemiBold;
+                color: $lightText;
+                margin-left: 2%;
+                // background-color: rgb(206, 206, 206);
+
+                h6{
+                    font-size: 170%;
+                    font-family: nunito;
+                }
+
+                .p-div {
+                    font-family: nunitoSemiBold;
+                    color: $lightText;
+
+                }
+
+                .select-1 {
+                    font-family: nunitoRegular;
+                    color: $lightText;
+                    font-size: 105%;
+                    border: 1px solid $inputBorder;
+                    border-radius: 5px;
+                    width: 98%;
+                    height: 37px;
+             
+
+                    &:hover {
+                        outline: 3px solid $inputBorderOutlineMain;
+                    }
+                    &:focus {
+                        outline: 3px solid $inputBorderOutlineMain;
+                    }
+
+                }
+
+                .select-2 {
+                    font-family: nunitoRegular;
+                    color: $lightText;
+                    font-size: 105%;
+                    border: 1px solid $inputBorder;
+                    border-radius: 5px;
+                    width: 98%;
+                    height: 37px;
+
+                    &:hover {
+                        outline: 3px solid $inputBorderOutlineMain;
+                    }
+                    &:focus {
+                        outline: 3px solid $inputBorderOutlineMain;
+                    }
+
+                }
+
+                .first-input {
+                    font-family: nunitoRegular;
+                    color: $lightText;
+                    font-size: 105%;
+                    border: 1px solid $inputBorder;
+                    border-radius: 5px;
+                    width: 98%;
+                    height: 37px;
+                    padding: 0 5px;
+             
+
+                    // &:hover {
+                    //     outline: 3px solid $inputBorderOutlineMain;
+                    // }
+                    &:focus {
+                        outline: 3px solid $inputBorderOutlineMain;
+                    }
+
+                }
+
+                .btn-verify {
+                    font-family: nunitoRegular;
+                    color: $pureWhiteColor;
+                    background-color: $blueText;
+                    border-radius: 5px;
+                    font-size: 105%;
+                    // border: 1px solid blue;
+                    height: 37px;
+                    width: 6%;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: $blueTextDark;
+                    }
+
+                }
+
+                .second-input{
+                    font-family: nunitoSemiBold;
+                    color: $lightText;
+                    font-size: 105%;
+                    border: 1px solid $inputBorder;
+                    border-radius: 5px;
+                    width: 98%;
+                    height: 37px;
+                    padding: 0 5px;
+                    background-color: rgba(225, 229, 249, 0.811);
+             
+
+                    // &:hover {
+                    //     outline: 3px solid $inputBorderOutlineMain;
+                    // }
+                    &:focus {
+                        outline: 3px solid $inputBorderOutlineMain;
+                    }
+
+                }
+
+                .btn-proceed {
+                    font-family: nunitoRegular;
+                    color: $pureWhiteColor;
+                    background-color: $blueText;
+                    border-radius: 5px;
+                    font-size: 105%;
+                    // border: 1px solid blue;
+                    height: 37px;
+                    width: 8%;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: $blueTextDark;
+                    }
+                }
+
+                .side-bar-divider{
+                    width: 97.8%;
+                    height: 0%;
+                    // margin-left: 10%;
+                    // border-top: 1px solid rgb(191, 44, 44);
+                    // margin-bottom: 4%;
+                    border: 1px solid rgba(224, 215, 215, 0.628);
+                    // margin: 0 auto;
+                    
+                }
+
+               
+               
+               
+                
             }
 
             footer{
@@ -501,7 +642,7 @@ body {
                 background-color: $pureWhiteColor;
                 // margin: 200px 0;
                 padding: 2% 0;
-                margin-top: 6%;
+                margin-top: 7%;
 
                 .footer-p {
                     font-family: nunitoSemiBold;

@@ -493,15 +493,125 @@ body {
             }
 
             .main-div {
+                font-family: nunitoRegular;
+                color: $lightText;
+                margin-left: 2% !important;
+                font-size: 105%;
+                .container {
+                    h6 {
+                        font-size: 105%;
+                        // margin-left: 15px;
+                        margin-top: 8px;
+                
+                        .badge {
+                            // border: 1px solid rgb(38, 38, 238);
+                            border-radius: 5px;
+                            background-color: rgb(38, 38, 238);
+                            color: white;
+                        }
+                    }
+
+                    .select-2 {
+                        font-family: nunitoRegular;
+                        color: $lightText;
+                        font-size: 105%;
+                        border: 1px solid $inputBorder;
+                        border-radius: 5px;
+                        width: 98%;
+                        height: 37px;
+    
+                        // &:hover {
+                        //     outline: 3px solid $inputBorderOutlineMain;
+                        // }
+                        &:focus {
+                            outline: 3px solid $inputBorderOutlineMain;
+                        }
+    
+                    }
+                
+                    // p {
+                    //     margin: 15px 15px;
+                
+                    // }
+
+                    .post {
+
+                        .amount{
+                            .form {
+                                font-family: nunitoRegular;
+                                color: $lightText;
+                                font-size: 105%;
+                                border: 1px solid $inputBorder;
+                                border-radius: 5px;
+                                margin-left: 0%;
+                                width: 98%;
+                                height: 37px;
+            
+                                // &:hover {
+                                //     outline: 3px solid $inputBorderOutlineMain;
+                                // }
+                                &:focus {
+                                    outline: 3px solid $inputBorderOutlineMain;
+                                }
+            
+                            }
+
+                        }
+                        .actions {
+                    
+                            .btn {
+                            
+                                border: 1px solid rgb(38, 38, 238);
+                                border-radius: 5px;
+                                background-color: rgb(38, 38, 238);
+                                color: white;
+                                width: 5.5%;
+                                height: 40px;
+                                margin-left: 0%;
+                                font-family: nunitoRegular;
+                            }
+    
+                            .hr{
+                                border-top: gray;
+                            }
+                            .btn:hover{
+                                transition: all 0.3s ease-in-out ;
+                                background-color: rgba(38, 38, 238, 0.733);
+                                border-color: rgba(38, 38, 238, 0.158);
+                            }
+    
+                        
+                    
+                        }
+                    
+                        
+                    }
+                }  
+                
+                // hr {
+                //     margin: 0px 14px;
+                
+                // }
+                
+                .alert-info {
+                    border: 1px solid rgb(100, 255, 203);
+                    background-color: rgb(100, 255, 203);
+                    color: black;
+                    padding: 5px 5px;
+                    width: 1000px;
+                    margin-left: -10%;
+                    border-radius: 4px;
+                }
+
+                
                  
             }
-
             footer{
                 // border: 1px solid red;
                 background-color: $pureWhiteColor;
                 // margin: 200px 0;
                 padding: 2% 0;
-                margin-top: 6%;
+                margin-top: 100%;
 
                 .footer-p {
                     font-family: nunitoSemiBold;
@@ -544,6 +654,8 @@ body {
 
                
             }
+
+            
         }
 
         
