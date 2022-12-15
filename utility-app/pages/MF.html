@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./../styles/dashboard/dashboard.css">
+        <link rel="stylesheet" href="../styles/MF/MF.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
@@ -29,7 +29,7 @@
                     <br>
                     
                     <ul>
-                        <li class="li-home"> <a class="a-home" href="./dashboard.html"> <img class="home" src="./../images/home.svg" alt="home"> Dashboard </a> 
+                        <li class="li-home"> <a class="a-home" href="../pages/dashboard.html"> <img class="home" src="./../images/home.svg" alt="home"> Dashboard </a> 
                           
                         </li> 
                         <br>
@@ -45,17 +45,17 @@
                                 
                                 <h6 class="h6-sub">SUBSCRIBE:</h6>
                                 <br>
-                                <a class="a-air" href="./airtime.html">Airtime</a>
+                                <a class="a-air" href="">Airtime</a>
                                 <br><br>
-                                <a class="a-dat" href="./data.html">Data</a>
+                                <a class="a-dat" href="">Data</a>
                                 <br><br>
-                                <a class="a-cab" href="./cable.html">Cable Subscription</a>
+                                <a class="a-cab" href="">Cable Subscription</a>
                                 <br><br>
-                                <a class="a-ele" href="./electricity.html">Electricity</a>
+                                <a class="a-ele" href="">Electricity</a>
                                 <br><br>
-                                <a class="a-wae" href="./waec.html">WAEC & NECO</a>
+                                <a class="a-wae" href="">WAEC & NECO</a>
                                 <br><br>
-                                <a class="a-fun" href="./fundbetting.html">Fund Betting Wallet <span class="new-fund-span">New</span></a>
+                                <a class="a-fun" href="">Fund Betting Wallet <span class="new-fund-span">New</span></a>
                                 
                                 
                             </div>
@@ -81,9 +81,9 @@
                                 
                                 <h6 class="h6-sub">SELECT FUND METHOD:</h6>
                                 <br>
-                                <a class="a-air" href="./IAF.html">Instantly</a>
+                                <a class="a-air" href="../pages/IAF.html">Instantly</a>
                                 <br><br>
-                                <a class="a-dat" href="./MF.html">Manually</a>              
+                                <a class="a-dat" href="../pages/MF.html">Manually</a>              
                                 
                             </div>
 
@@ -92,14 +92,14 @@
                         <hr class="side-bar-divider">
                         <br><br>
 
-                        <li class=""> <a href="./transaction.html"> <img class="transaction" src="./../images/receipt.svg" alt="transaction"> Transactions </a></li>
+                        <li class=""> <a href="../pages/transaction.html"> <img class="transaction" src="./../images/receipt.svg" alt="transaction"> Transactions </a></li>
                         <br>
                         <hr class="side-bar-divider">
                         <br>
 
                         <h2 class="finances-h2">TOOLS</h2>
                         <br>
-                        <li class=""> <a href="./schedule.html"> <img class="clock" src="./../images/clock-three.svg" alt="clock"> Schedule </a></li>
+                        <li class=""> <a href=""> <img class="clock" src="./../images/clock-three.svg" alt="clock"> Schedule </a></li>
                         <br>
                         <hr class="side-bar-divider-clock">
                         <br>
@@ -124,9 +124,9 @@
                         
                         <h6 class="h6-sub">HOLLA!</h6>
                         <br>
-                        <a class="a-male" href="./profile.html"><img class="male" src="./../images/Vector (8).svg" alt="user"> Profile</a>
+                        <a class="a-male" href=""><img class="male" src="./../images/Vector (8).svg" alt="user"> Profile</a>
                         <br><br>
-                        <a class="a-logout" href="./modal.html">  <img class="logout" src="./../images/logout.svg" alt="logout"> Logout</a>
+                        <a class="a-logout" href="">  <img class="logout" src="./../images/logout.svg" alt="logout"> Logout</a>
                         <br><br>
                         
                        
@@ -137,24 +137,37 @@
                 </div>
                 
                 <div class="main-div">
-                    <p style="color: rgb(135, 135, 138); ; font-size: 25px; font-weight:light;padding-left: 30px;">Dashboard</p>
-                    <div class="mother">
-                        <div class="child">
-                            <div class="div1"><p class="p1"> <span class="balance"> Balance</span>
-                                <span class="span">  <img src="../images/download.png" alt="" class="img1"></span>
-                                <br>₦ 370</p></div>
+                    <div>
+                        <p class="p1" style="font-size: 30px;font-weight: lighter;">Mannual Funding</p>
+                        <div style="background-color: rgb(201, 241, 201); height: 160px; border-radius: 10px;">
+                            <p style="padding: 10px 0 0 20px;font-size: 18px;">Pay via cash deposit, bank or mobile transfer your
+                                deposit to the bank account below:
+                                <br> Account Name:Natasco Technology <br>
+                                Bank Name: KUDA BANK <br>
+                                Account Number: 3000074079 <br>
+                                It usually takes less than 30 minutes for us to fund your wallet
+                            </p>
                         </div>
-                        <div class="child2">
-                            <div class="div2"> <p class="p1"> <span class="balance"> Scheduled Task Balance</span>
-                             <span class="span">  <img src="./../images/images.jfif" alt="" class="img1"></span> 
-                                <br>₦ 0</p></div>
-                        </div>
+                        <hr>
+                        <form action="get" style="color:#9e9595 ;">
+                            <br>
+                            <p>Name</p>
+                            <input type="text" name="text" id="box1" class="box1" placeholder="Guddy Guddy"> <br>
+                           <br>
+                            <p>Amount</p>
+                            <input type="number" name="number" id="number" class="box1"> <br>
+                            <br>
+                            <p>Sender's Name</p>
+                            <input type="text" name="text" id="box1" class="box1"
+                                placeholder="Please state sender's account name and bank." style="height: 60px;">
+                        </form>
+                        <button class="btn">I have paid</button>
                     </div>
                 </div>
                 
                 <footer>
                     
-                    <p class="footer-p">Copyright &copy; Natasco Technology 2022 | <a class="a-become" href="./Agent.html"> Become an Agent</a> | <a class="a-contact" href="#">Contact us</a> </p>
+                    <p class="footer-p">Copyright &copy; Natasco Technology 2022 | <a class="a-become" href="#"> Become an Agent</a> | <a class="a-contact" href="#">Contact us</a> </p>
                     <!-- <hr class="side-bar-divider-straigh"> -->
                 </footer>
                 
@@ -162,7 +175,7 @@
             </section>
         </main> 
 
-        <script src="./../scripts/dashboard.js"></script>
+        <script src="../scripts/MF.js"></script>
        
     </body>
 </html>
