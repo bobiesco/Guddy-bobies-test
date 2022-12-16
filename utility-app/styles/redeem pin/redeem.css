@@ -420,7 +420,7 @@ nav {
 }
 
 #btn:hover{
-  border: 1px solid rgb(88, 88, 175);
+  /* border: 1px solid rgb(88, 88, 175); */
   background-color: #466be4e3;
 }
 .ud-airtime{
