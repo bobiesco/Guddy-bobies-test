@@ -1,20 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap'); 
-
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 :root {
-  --font: 'Nunito';
+  --font: "Nunito";
   --body-color: #637381;
   --heading-color: #212b36;
   --primary-color: #3056d3;
   --white: #ffffff;
-
 }
 
 body {
@@ -22,9 +19,7 @@ body {
   font-weight: normal;
   font-style: normal;
   color: var(--body-color);
-
 }
-
 
 img {
   max-width: 100%;
@@ -34,7 +29,6 @@ a,
 button,
 input,
 textarea {
-  -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 
@@ -45,7 +39,6 @@ textarea:focus,
 button:focus {
   text-decoration: none;
   outline: none;
-  -webkit-box-shadow: none;
   box-shadow: none;
 }
 
@@ -75,18 +68,20 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+  font-weight: 200;
   color: var(--heading-color);
   margin: 0px;
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 2rem;
+  padding-top: 10px;
+  margin-bottom: 40px;
+  padding-right: 100px;
 }
 
 h2 {
-  font-size: 3.3rem;
-  margin-right: 90px;
+  font-size: 1.1rem;
 }
 
 h3 {
@@ -129,7 +124,7 @@ p {
 }
 
 .ud-main-btn {
-    margin-top: 30px;
+  margin-top: 30px;
   display: inline-block;
   text-align: center;
   white-space: nowrap;
@@ -142,7 +137,6 @@ p {
   color: var(--white);
   cursor: pointer;
   z-index: 5;
-  -webkit-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
   background: var(--primary-color);
 }
@@ -152,47 +146,43 @@ p {
   background: var(--heading-color);
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 55px;
-    padding-top: 6px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 55px;
+  padding-top: 6px;
 }
 
-#nav{
-    display: flex;
-    padding-bottom: 18px;
-
-    
+#nav {
+  display: flex;
+  padding-bottom: 18px;
 }
 
-.nav-item{
-    margin: 0px 10px;
-    align-content: center;
-    padding-top: 10px;
+.nav-item {
+  margin: 0px 10px;
+  align-content: center;
+  padding-top: 10px;
 }
 
 .sticky {
-    position: fixed;
-    text-align: center;
-    padding: 6px 50px;
-    align-items: center;
+  position: fixed;
+  text-align: center;
+  padding: 6px 50px;
+  align-items: center;
   z-index: 99;
   opacity: 1;
   background-color: rgba(255, 255, 255, 0.452);
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
-  -webkit-box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
-  -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   width: 100%;
 }
 
-.navbar-nav .nav-item>a:hover,
-.navbar-nav .nav-item>a.active {
+.navbar-nav .nav-item > a:hover,
+.navbar-nav .nav-item > a.active {
   color: var(--white);
   opacity: 0.5;
 }
@@ -207,12 +197,10 @@ nav{
   color: var(--primary-color);
 }
 
-.navbar-nav .nav-item:hover>a {
+.navbar-nav .nav-item:hover > a {
   color: var(--white);
   opacity: 0.5;
 }
-
-
 
 .navbar-btn .ud-main-btn {
   padding: 8px 12px;
@@ -233,8 +221,7 @@ nav{
   color: var(--heading-color);
 }
 
-
-.sticky .navbar-nav .nav-item:hover>a {
+.sticky .navbar-nav .nav-item:hover > a {
   color: var(--primary-color);
   opacity: 1;
 }
@@ -242,7 +229,6 @@ nav{
 .sticky .navbar-nav .nav-item a {
   color: var(--heading-color);
 }
-
 
 .sticky .navbar-nav .nav-item a.active,
 .sticky .navbar-nav .nav-item a:hover {
@@ -268,43 +254,33 @@ nav{
   background: var(--heading-color);
 }
 
-
-
 .ud-about {
   background: #f3f4fe;
-  padding: 120px 0;
+  height: 210px;
+  padding: 90px 50px;
 }
-
 
 .ud-about-wrapper {
   background: var(--white);
   border: 1px solid rgba(0, 0, 0, 0.08);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
-
 
 .ud-about-content-wrapper {
   padding: 20px 60px;
 }
 
 .ud-about-content {
-  max-width: 1050px;
+  max-width: 1080px;
   text-align: justify;
   padding: 20px 0px;
 }
-
-
 
 .ud-pricing {
   padding-top: 120px;
   padding-bottom: 90px;
 }
-
 
 .ud-single-pricing {
   margin-bottom: 5px;
@@ -315,11 +291,9 @@ nav{
   text-align: center;
   padding: 45px 30px;
   position: relative;
-  
 }
 
 .ud-single-pricing.active {
-  background: -webkit-gradient(linear, left top, left bottom, from(#3056d3), to(#179bee));
   background: linear-gradient(180deg, #3056d3 0%, #179bee 100%);
   border: none;
   padding: 55px 30px;
@@ -342,7 +316,6 @@ nav{
   height: 55px;
   z-index: 1;
 }
-
 
 .ud-single-pricing.last-item::after {
   background: #13c296;
@@ -411,174 +384,215 @@ nav{
   background: var(--heading-color);
 }
 
-.tag{
-    border: 1px solid blue;
-    color: white;
-    background-color: blue;
-    margin: 20px 0px;
-}
-.page-banner{
-    margin-bottom: 1px;
-    height: 150px;
-    background-color: blue;
-    text-align: center;
-    padding-top: 80px;
+.tag {
+  border: 1px solid blue;
+  color: white;
+  background-color: blue;
+  margin: 20px 0px;
 }
 
-.container{
-    margin: 0px 100px;
+.form-container{
+  border: 1px solid var(--white);
+  position: relative;
+  top: -201px;
+  padding-top: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 190px 2px rgba(2, 2, 2, 0.24) ;
+  text-align: center;
+  font-family: var(--font);
+  font-size: 8px !important;
+  
 }
+#airtime{
+  font-family: var(--font);
+  font-size: 1rem;
+}
+#btn{
+  border: 1px solid rgb(88, 88, 175);
+  background-color: #3661ec;
+  color: #f3f4fe;
+  border-radius: 5px;
+  font-family: var(--font);
+  text-align: center;
+  width: 190px;
+  margin: 20px 30px;
+  align-self: center;
+}
+
+#btn:hover{
+  border: 1px solid rgb(88, 88, 175);
+  background-color: #466be4e3;
+}
+.ud-airtime{
+  padding: 9px 15px;
+}
+
+input{
+  font-family: var(--font);
+  font-size: 1rem;
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+}
+input:hover{
+  border-color: rgb(69, 69, 167);
+}
+
+.page-banner {
+  margin-bottom: 1px;
+  height: 150px;
+  background-color: blue;
+  text-align: center;
+  padding-top: 80px;
+}
+
+#container {
+  
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.ud-info-icon{
+  margin-left: 20px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
 
 .ud-footer {
-    background: var(--heading-color);
-    padding-top: 100px;
-    position: absolute;
-    z-index: 1;
-    left: -3px;
-    margin-top: 130px;
-    width: 100%;
-    
-    
+  background: var(--heading-color);
+  padding-top: 100px;
+  position: absolute;
+  z-index: 1;
+  left: -3px;
+  margin-top: 230px;
+  width: 100%;
 }
 
 .ud-footer .shape {
-    position: absolute;
-    z-index: -1;
+  position: absolute;
+  z-index: -1;
 }
 
 .ud-footer .shape.shape-1 {
-    top: 0;
-    left: 0;
+  top: 0;
+  left: 0;
 }
 
 .ud-footer .shape.shape-2 {
-    top: 0;
-    right: 0;
+  top: 0;
+  right: 0;
 }
 
 .ud-footer .shape.shape-3 {
-    bottom: 0;
-    right: 0;
+  bottom: 0;
+  right: 0;
 }
 
 .ud-widget {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .ud-widget .ud-footer-logo {
-    max-width: 100%;
-    
-    margin-bottom: 10px;
+  max-width: 100%;
+  margin-bottom: 10px;
 }
 
 .ud-widget .ud-footer-logo img {
-    width: 100%;
+  width: 100%;
 }
 
 .ud-widget .ud-widget-desc {
-    font-size: 15px;
-    line-height: 24px;
-    color: #f3f4fe;
-    margin-bottom: 30px;
-    max-width: 260px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #f3f4fe;
+  margin-bottom: 30px;
+  max-width: 260px;
 }
 
 .ud-widget .ud-widget-socials {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .ud-widget .ud-widget-socials a {
-    font-size: 16px;
-    color: #dddddd;
-    margin-right: 20px;
+  font-size: 16px;
+  color: #dddddd;
+  margin-right: 20px;
 }
 
 .ud-widget .ud-widget-socials a:hover {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .ud-widget .ud-widget-title {
-    font-weight: 600;
-    font-size: 18px;
-    margin-bottom: 35px;
-    color: var(--white);
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 35px;
+  color: var(--white);
 }
 
 .ud-widget .ud-widget-links a {
-    display: inline-block;
-    margin-bottom: 12px;
-    font-size: 15px;
-    line-height: 30px;
-    color: #f3f4fe;
+  display: inline-block;
+  margin-bottom: 12px;
+  font-size: 15px;
+  line-height: 30px;
+  color: #f3f4fe;
 }
 
 .ud-widget .ud-widget-links a:hover {
-    color: var(--primary-color);
-    padding-left: 10px;
+  color: var(--primary-color);
+  padding-left: 10px;
 }
 
 .ud-widget .ud-widget-brands {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .ud-widget .ud-widget-brands a {
-    display: block;
-    max-width: 500px;
-    margin-bottom: 20px;
-    margin-right: 20px;
+  display: block;
+  max-width: 500px;
+  margin-bottom: 20px;
+  margin-right: 20px;
 }
 
-
 .ud-footer-bottom {
-    padding: 35px 0;
-    border-top: 1px solid rgba(136, 144, 164, 0.43);
+  padding: 35px 0;
+  border-top: 1px solid rgba(136, 144, 164, 0.43);
 }
 
 .ud-footer-bottom .ud-footer-bottom-left {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .ud-footer-bottom .ud-footer-bottom-left a {
-    font-weight: normal;
-    font-size: 15px;
-    color: #f3f4fe;
-    margin-right: 30px;
-    display: inline-block;
+  font-weight: normal;
+  font-size: 15px;
+  color: #f3f4fe;
+  margin-right: 30px;
+  display: inline-block;
 }
 
 .ud-footer-bottom .ud-footer-bottom-left a:hover {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .ud-footer-bottom .ud-footer-bottom-right {
-    text-align: right;
-    font-weight: normal;
-    font-size: 15px;
-    color: #f3f4fe;
+  text-align: right;
+  font-weight: normal;
+  font-size: 15px;
+  color: #f3f4fe;
 }
 
 .ud-footer-bottom .ud-footer-bottom-right a {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .ud-footer-bottom .ud-footer-bottom-right a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nata - Agent</title>
+    <link rel="stylesheet" href="../styles/redeem pin/redeem.css">
+    <meta name="theme-color" content="#6777ef">
+</head>
+
+<body>
+    <header class="ud-header sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg">
+                        <a class="navbar-brand" href="./Nata.NG.html">
+                            <h3 style="color: white"> NATA</h3>
+
+                        </a>
+
+                        <div class="">
+                            <ul id="nav" class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                    <a class="ud-menu-scroll" href="./Nata.NG.html">Home</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="ud-menu-scroll" href="./Nata.NG.html#features">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ud-menu-scroll" href="./Nata.NG.html#pricing">Pricing</a>
+                                </li>
+
+
+
+
+                            </ul>
+                        </div>
+
+                        <div class="navbar-btn d-none d-sm-inline-block">
+                            <a href="./signin.html" class="ud-main-btn ud-login-btn">
+                                Sign In
+                            </a>
+                            <a class="ud-main-btn ud-white-btn" href="./signup.html">
+                                Sign Up
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="page-banner" style="background-color:#3661ec;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ud-content">
+                        <h1 style="color: white;">Reedem E PIN</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="ud-about" style="padding: 90px 50px;">
+        <p>REDEEM PIN</p>
+        <h1>Input the PIN gifted to you</h1>
+        <div id="container">
+
+            <div>
+                <div class="ud-info-icon">
+                    <i class="lni lni-select"></i>
+                    <img id="net" src="../images/network_iukc28u95e0f.svg" alt="" width="30px">
+                    <div class="ud-info-meta" style="padding-left:15px;">
+                        <h5 style="font-weight: 1000px;">Select Network</h5>
+                        <p>Any network of your choice(MTN, GLO, 9Mobile, Airtel)</p>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="ud-single-info">
+                <div class="ud-info-icon">
+                    <i class="lni lni-phone"></i>
+                    <img id="phone" src="../images/phone_4p6sliw1vxrt.svg" alt="" width="25px">
+                    <div class="ud-info-meta" style="padding-left:15px;">
+                        <h5>Input PIN</h5>
+                        <p>Input the 12 digit pin gifted to you, Hit Redeem</p>
+                        
+                    </div>
+                </div>
+                
+            </div>
+
+
+            <div class="form-container" style="background-color: white; height: 360px; margin-top: 30px;">
+                <h3 class="ud-contact-form-title" style="font-size: 1.2rem;">Redeem Here</h3>
+
+
+
+                <form method="post" action="./redeem.html" id="ud-contact-form" >
+
+                    <input type="hidden" name="_token" value="OM5Xm3I8pDLBMaUEa0pFEPU2gBgT0fGfLrpqgF1A">
+
+
+
+                    <div class="ud-airtime">
+                        <label for="network" style="font-size: 0.6rem;">Select Network*</label> <br>
+                        <select id="airtime" name="network" class="form-control form-select form-select-lg mb-3  "
+                            aria-label="Default select example" required="" style="height: 26px; font-size: 0.7rem;">
+                            <option selected="" value="" style="font-size: 0.5rem !important;">Select Mobile Network </option>
+                            <option value="15">MTN(Airtime)</option>
+                            <option value="6">GLO(Airtime)</option>
+                            <option value="1">Airtel(Airtime)</option>
+                            <option value="2">9MOBILE(Airtime)</option>
+                        </select>
+
+                    </div>
+
+                    <div class="ud-form-group">
+                        <label for="phone" style="font-size: 0.7rem;">Phone*</label><br>
+                        <input style="height: 26px; font-size: 0.7rem;" type="text" name="phone" placeholder="08101312990" required="">
+
+
+                    </div>
+
+                    <div class="ud-form-group" style="margin: 15px 10px;">
+                        <label for="pin" style="font-size: 0.7rem;">Pin*</label><br>
+                        <input type="text" name="pin" placeholder="12 digit pin" style="height: 26px; font-size: 0.7rem;" required="" dir="ltr">
+
+
+                    </div>
+
+                    <div class="ud-form-group mb-0">
+                        <input id="btn" class="btn btn-primary" type="submit" value="Redeem">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+    </section>
+    <footer id="wow" class="ud-footer" data-wow-delay=".15s"
+        style="visibility: visible; animation-delay: 0.15s; animation-name: none;" style="width: 100%;" >
+
+        <div class="ud-footer-bottom">
+            <div class="container" style="padding: 0px 120px;">
+
+                <div class="row">
+                    <div class="col-md-8">
+                        <ul class="ud-footer-bottom-left">
+                            <li>
+                                <a href="./Privacy.html">Privacy policy</a>
+                            </li>
+                            <li>
+                                <a href="./terms.html">Terms &amp; Conditions</a>
+                            </li>
+                            <li>
+                                <a href="./Agent.html">Become an agent</a>
+                            </li>
+
+                            <li>
+                                <a href="#"> Natasco Technology | Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
