@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     button2.addEventListener('click', function(e){
         e.preventDefault();
-        subcriptionBox2.classList.togle('hide2')
+        subcriptionBox2.classList.toggle('hide2')
 
     })
 
